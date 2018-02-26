@@ -1,0 +1,29 @@
+---
+title: TVM Stack
+
+description: |
+  End to End Optimization Stack for Deep Learning
+
+people:
+  - tqchen
+  - moreau
+  - eddie
+  - haichen
+  - meghan
+  - jroesch
+  - arvind
+  - ceze
+  - guestrin
+  - ztatlock
+
+layout: project
+last-updated: 2018-02-25
+---
+
+TVM stack is a unified optimization stack that will close the gap between the productivity-focused deep learning frameworks, and the performance- or efficiency-oriented hardware backends. The project contains the following components
+
+<img src="http://www.tvmlang.org/images/main/stack_tvmlang.png" width="400px"/>
+
+
+Checkout our techreport [TVM: End-to-End Optimization Stack for Deep Learning](https://arxiv.org/abs/1802.04799)
+and latest updates at [tvmlang.org](http://tvmlang.org).
