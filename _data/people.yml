@@ -7,6 +7,14 @@ luisceze:
     image: /img/people/ceze.jpg
     bio: "Professor"
 
+arvind:
+    display_name: "Arvind Krishnamurthy"
+    webpage: "https://www.cs.washington.edu/people/faculty/arvind/"
+    # github: luisceze arvinds GH?
+    role: faculty
+    image: /img/people/arvind.png
+    bio: "Professor"
+
 cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
