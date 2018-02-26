@@ -32,6 +32,11 @@ eqy:
     role: grad
     image: /img/people/eddie.jpg
 
+jroesch:
+    display_namee: "Jared Roesch"
+    webpage: "https://jroesch.github.io"
+    role: grad
+    image: /img/people/jroesch.jpg
 # prof-a:
 #     display_name: "Prof A"
 #     role: faculty
