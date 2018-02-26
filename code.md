@@ -2,8 +2,9 @@
 layout: default
 title: Code
 ---
-This is an example of an additional page you could add to the site (and its navigation).
 
-If you like this template, find our group's other code here:
+You can find much of our code online:
 
- * [uwsampa on GitHub](https://github.com/uwsampa/)
+ * [uwsaml on Github](https://github.com/uwsaml/)
+ * [NNVM](https://github.com/dmlc/nnvm)
+ * [TVM](https://github.com/dmlc/tvm)
