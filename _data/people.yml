@@ -15,6 +15,14 @@ arvind:
     image: /img/people/arvind.png
     bio: "Professor"
 
+ztatlock:
+    display_name: "Zachary Tatlock "
+    webpage: "https://homes.cs.washington.edu/~ztatlock/"
+    github: ztatlock
+    role: faculty
+    image: /img/people/ztatlock.png
+    bio: "Assistant Professor"
+
 cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
@@ -35,14 +43,28 @@ eqy:
 jroesch:
     display_name: "Jared Roesch"
     webpage: "https://jroesch.github.io"
+    github: jroesch
     role: grad
     image: /img/people/jroesch.jpg
 
 tqchen:
     display_name: "Tianqi Chen"
     webpage: "https://homes.cs.washington.edu/~tqchen/"
+    github: tqchen
     role: grad
     image: /img/people/tqchen.jpg
+
+joshpoll:
+    display_name: "Josh Pollock"
+    role: ugrad
+
+loganweb:
+    display_name: "Logan Weber"
+    role: ugrad
+
+# ugrad-e:
+#     display_name: "Ugrad E"
+#     role: ugrad
 
 # prof-a:
 #     display_name: "Prof A"
