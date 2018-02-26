@@ -20,7 +20,7 @@ ztatlock:
     webpage: "https://homes.cs.washington.edu/~ztatlock/"
     github: ztatlock
     role: faculty
-    image: /img/people/ztatlock.png
+    image: /img/people/ztatlock.jpg
     bio: "Assistant Professor"
 
 cowanmeg:
@@ -54,6 +54,12 @@ tqchen:
     role: grad
     image: /img/people/tqchen.jpg
 
+haichen:
+    display_name: "Haichen Shen"
+    webpage: "https://homes.cs.washington.edu/~haichen/"
+    role: grad
+    image: /img/people/haichen.jpg
+
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
@@ -61,6 +67,7 @@ joshpoll:
 loganweb:
     display_name: "Logan Weber"
     role: ugrad
+
 
 # ugrad-e:
 #     display_name: "Ugrad E"
