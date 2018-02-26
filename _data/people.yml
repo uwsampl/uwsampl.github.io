@@ -1,161 +1,186 @@
 
-prof-a:
-    display_name: "Prof A"
+luisceze:
+    display_name: "Luis Ceze"
+    webpage: "https://homes.cs.washington.edu/~luisceze/"
+    github: luisceze
     role: faculty
+    image: /img/people/ceze.jpg
+    bio: "Professor"
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
-    role: postdoc
-
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+cowanmeg:
+    display_name: "Meghan Cowan"
     role: grad
-    image: /img/people/storm.png
+    image: /img/people/meghan.jpg
 
-grad-a:
-    display_name: "Grad A"
+moreau:
+    display_name: "Thierry Moreau"
+    webpage: "http://homes.cs.washington.edu/~moreau/"
     role: grad
+    image: /img/people/moreau.jpg
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+eqy:
+    display_name: "Eddie Yan"
+    webpage: "https://linux.ucla.edu/~eqy/"
     role: grad
+    image: /img/people/eddie.jpg
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+# prof-a:
+#     display_name: "Prof A"
+#     role: faculty
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
+# prof-b:
+#     display_name: "Prof B"
+#     role: faculty
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
+# prof-c:
+#     display_name: "Prof C"
+#     role: faculty
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
+# profx:
+#     display_name: "Professor X"
+#     webpage: "http://en.wikipedia.org/wiki/Professor_X"
+#     github: profx
+#     role: faculty
+#     image: /img/people/prof-x.png
+#     bio: Professor
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
+# scott:
+#     display_name: "Scott Summers"
+#     webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
+#     role: staff
+#     image: /img/people/scott.png
+#     bio: aka Cyclops
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
+# wolverine:
+#     display_name: "Wolverine"
+#     webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
+#     github: wolverine
+#     role: postdoc
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
+# storm:
+#     display_name: "Storm"
+#     webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+#     role: grad
+#     image: /img/people/storm.png
 
-alum-a:
-    display_name: "Alum A"
-    role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+# grad-a:
+#     display_name: "Grad A"
+#     role: grad
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
+# grad-b:
+#     display_name: "Graduate Student B With Long Name"
+#     role: grad
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
+# grad-c:
+#     display_name: "Grad C"
+#     role: grad
 
-alum-d:
-    display_name: "Alum D"
-    role: alum
+# grad-d:
+#     display_name: "Grad D"
+#     role: grad
 
-alum-e:
-    display_name: "Alum E"
-    role: alum
+# grad-e:
+#     display_name: "Grad E"
+#     role: grad
 
-alum-f:
-    display_name: "Alum F"
-    role: alum
+# grad-f:
+#     display_name: "Grad F"
+#     role: grad
 
-alum-g:
-    display_name: "Alum G"
-    role: alum
+# grad-g:
+#     display_name: "Grad G"
+#     role: grad
 
-alum-h:
-    display_name: "Alum H"
-    role: alum
+# grad-h:
+#     display_name: "Grad H"
+#     role: grad
 
-alum-i:
-    display_name: "Alum I"
-    role: alum
+# grad-i:
+#     display_name: "Grad I"
+#     role: grad
 
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
+# alum-a:
+#     display_name: "Alum A"
+#     role: alum
+#     bio: "Ph.D., 2013. Now at Microsoft Research."
 
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
+# alum-b:
+#     display_name: "Alum B With Way Longer Name"
+#     role: alum
 
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
+# alum-c:
+#     display_name: "Alum C"
+#     role: alum
+#     webpage: "https://www.google.com"
 
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
+# alum-d:
+#     display_name: "Alum D"
+#     role: alum
 
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
+# alum-e:
+#     display_name: "Alum E"
+#     role: alum
 
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
+# alum-f:
+#     display_name: "Alum F"
+#     role: alum
 
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
+# alum-g:
+#     display_name: "Alum G"
+#     role: alum
 
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
+# alum-h:
+#     display_name: "Alum H"
+#     role: alum
 
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
+# alum-i:
+#     display_name: "Alum I"
+#     role: alum
 
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
+# collab-a:
+#     display_name: "Collaborator A"
+#     role: collab
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+# collab-b:
+#     display_name: "Collaborator B With Long Name"
+#     role: collab
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+# collab-c:
+#     display_name: "Collaborator C"
+#     role: collab
+
+# collab-d:
+#     display_name: "Collaborator D"
+#     role: collab
+
+# collab-e:
+#     display_name: "Collaborator E"
+#     role: collab
+
+# ugrad-a:
+#     display_name: "Ugrad A"
+#     role: ugrad
+
+# ugrad-b:
+#     display_name: "Ugrad Student B With Long Name"
+#     role: ugrad
+
+# ugrad-c:
+#     display_name: "Ugrad C"
+#     role: ugrad
+
+# ugrad-d:
+#     display_name: "Ugrad D"
+#     role: ugrad
+
+# ugrad-e:
+#     display_name: "Ugrad E"
+#     role: ugrad
+
+# ugrad-alum-a:
+#     display_name: "Past Ugrad A"
+#     role: ugrad-alum
+
+# ugrad-alum-b:
+#     display_name: "Past Ugrad Student B With Long Name"
+#     role: ugrad-alum
