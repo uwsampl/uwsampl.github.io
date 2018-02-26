@@ -20,7 +20,7 @@ XGBoost is an optimized distributed gradient boosting system designed to be high
 It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting(also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment(Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
 The most recent version integrates naturally with DataFlow frameworks(e.g. Flink and Spark).
 
-<img src="img/xgboost/tree_model.png" width="400px"/>
+<img src="/img/xgboost/tree_model.png" width="400px"/>
 
 ## Reference Paper
 
