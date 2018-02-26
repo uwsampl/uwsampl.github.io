@@ -15,6 +15,13 @@ arvind:
     image: /img/people/arvind.png
     bio: "Professor"
 
+carlos:
+    display_name: "Carlos Guestrin"
+    webpage: "http://homes.cs.washington.edu/~guestrin/"
+    role: faculty
+    image: /img/people/guestrin.jpg
+    bio: "Associate Professor"
+
 ztatlock:
     display_name: "Zachary Tatlock "
     webpage: "https://homes.cs.washington.edu/~ztatlock/"
