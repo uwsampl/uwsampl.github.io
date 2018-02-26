@@ -66,6 +66,11 @@ haichen:
     webpage: "https://homes.cs.washington.edu/~haichen/"
     role: grad
     image: /img/people/haichen.jpg
+    
+liangluo:
+    display_name: Liang Luo
+    role: grad
+    image: /img/people/liangluo.jpg
 
 joshpoll:
     display_name: "Josh Pollock"
