@@ -54,6 +54,12 @@ jroesch:
     role: grad
     image: /img/people/jroesch.jpg
 
+sslyu:
+    display_name: "Steven Lyubomirsky"
+    webpage: "https://homes.cs.washington.edu/~sslyu/"
+    role: grad
+    image: /img/people/sslyu.jpg
+
 tqchen:
     display_name: "Tianqi Chen"
     webpage: "https://homes.cs.washington.edu/~tqchen/"
