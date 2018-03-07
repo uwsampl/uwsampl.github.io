@@ -17,6 +17,6 @@ last-updated: 2018-02-25
 
 Balanced design of a parameter server.
 
-![image](/img/PHub/PHubSysMLPoster.png){: width="90%"}
+![image](/img/PHub/PHubSysMLPoster.png)
 
 Checkout our techreport [Parameter Hub: High Performance Parameter Servers for Efficient Distributed Deep Neural Network Training](http://www.sysml.cc/doc/16.pdf).
