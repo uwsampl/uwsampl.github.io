@@ -18,7 +18,7 @@ last-updated: 2018-02-25
 Balanced design of a parameter server.
 
 {:center: style="text-align: center"}
-![image](http://www.tvmlang.org/images/main/stack_tvmlang.png){: width="90%"}
+![image](img/PHub/PHubSysMLPoster.png){: width="90%"}
 {:center}
 
 
