@@ -30,6 +30,13 @@ ztatlock:
     image: /img/people/ztatlock.jpg
     bio: "Assistant Professor"
 
+matthai:
+    display_name: Matthai Philipose
+    webpage: "https://homes.cs.washington.edu/~matthai/"
+    role: faculty
+    image: /img/people/matthai.jpg
+    bio: "Affiliate Professor"
+
 cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
@@ -80,6 +87,11 @@ loganweb:
     display_name: "Logan Weber"
     role: ugrad
 
+Seungyeop:
+    display_name: "Seungyeop Han"
+    webpage: "http://haneul.github.io/"
+    role: postdoc
+    image: /img/people/syhan.jpg
 
 # ugrad-e:
 #     display_name: "Ugrad E"
