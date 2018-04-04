@@ -85,12 +85,12 @@ liangluo:
     role: grad
     image: /img/people/liangluo.jpg
 
-joshpoll:
-    display_name: "Josh Pollock"
-    role: ugrad
-
 loganweb:
     display_name: "Logan Weber"
+    role: grad
+
+joshpoll:
+    display_name: "Josh Pollock"
     role: ugrad
 
 seungyeop:
