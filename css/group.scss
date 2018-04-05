@@ -28,6 +28,10 @@ body {
     }
 }
 
+#topbar {
+    padding-top: 10px;
+}
+
 .fa {
     color: $gray;
 }
@@ -53,9 +57,11 @@ a > .fa {
 
 /* Group logo */
 #logo {
-    width: 154px;
-    height: 35px;
-    margin: 2px 0 8px 0;
+    // width: 154px;
+    // height: 35px;
+    // margin: 2px 0 8px 0;
+    margin-top: -15px;
+    margin-bottom: -10px;
 }
 
 /* Front page news. */
