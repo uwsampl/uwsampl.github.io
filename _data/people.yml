@@ -92,6 +92,8 @@ loganweb:
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
+    webgpage: "https://github.com/joshpoll"
+    image: /img/people/joshpoll.jpg
 
 seungyeop:
     display_name: "Seungyeop Han"
