@@ -95,6 +95,12 @@ joshpoll:
     webgpage: "https://github.com/joshpoll"
     image: /img/people/joshpoll.jpg
 
+kirisame:
+    display_name: "Marisa Kirisame"
+    role: ugrad
+    webpage: "lolisa@marisa.moe"
+    image: /img/people/kirisame.jpg
+
 seungyeop:
     display_name: "Seungyeop Han"
     webpage: "http://haneul.github.io/"
