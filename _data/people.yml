@@ -37,12 +37,7 @@ matthai:
     image: /img/people/matthai.jpg
     bio: "Affiliate Professor"
 
-jacob:
-    display_name: Jacob Nelson
-    webpage: "https://nelsonje.github.io/"
-    role: collaborator
-    image: /img/people/jacob.jpg
-    bio: "Researcher"
+
 
 cowanmeg:
     display_name: "Meghan Cowan"
@@ -113,6 +108,13 @@ seungyeop:
     webpage: "http://haneul.github.io/"
     role: postdoc
     image: /img/people/syhan.jpg
+    
+jacob:
+    display_name: Jacob Nelson
+    webpage: "https://nelsonje.github.io/"
+    role: postodc
+    image: /img/people/jacob.jpg
+    bio: "Researcher"
 
 # ugrad-e:
 #     display_name: "Ugrad E"
