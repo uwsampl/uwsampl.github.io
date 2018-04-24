@@ -37,6 +37,13 @@ matthai:
     image: /img/people/matthai.jpg
     bio: "Affiliate Professor"
 
+jacob:
+    display_name: Jacob Nelson
+    webpage: "https://nelsonje.github.io/"
+    role: collaborator
+    image: /img/people/jacob.jpg
+    bio: "Researcher"
+
 cowanmeg:
     display_name: "Meghan Cowan"
     role: grad
