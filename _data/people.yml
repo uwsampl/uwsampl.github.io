@@ -91,6 +91,7 @@ liangluo:
 loganweb:
     display_name: "Logan Weber"
     role: grad
+    image: /img/people/loganweb.jpg
 
 joshpoll:
     display_name: "Josh Pollock"
