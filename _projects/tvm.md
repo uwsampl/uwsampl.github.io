@@ -14,6 +14,10 @@ people:
   - arvind
   - luisceze
   - carlos
+  - sslyu
+  - loganweb
+  - joshpoll
+  - kirisame
   - ztatlock
 
 layout: project
