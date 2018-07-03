@@ -118,6 +118,12 @@ jacob:
     role: postdoc
     image: /img/people/jacob.jpg
     
+amar:
+    display_name: Amar Phanishayee
+    webpage: "https://www.microsoft.com/en-us/research/people/amar/"
+    role: postdoc
+    image: /img/people/amar.jpg
+    
 # ugrad-e:
 #     display_name: "Ugrad E"
 #     role: ugrad
