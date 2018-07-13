@@ -57,6 +57,12 @@ eqy:
     role: grad
     image: /img/people/eddie.jpg
 
+vega:
+    display_name: "Luis Vega"
+    webpage: "https://homes.cs.washington.edu/~vegaluis/"
+    role: grad
+    image: /img/people/vega.jpg
+    
 jroesch:
     display_name: "Jared Roesch"
     webpage: "https://jroesch.github.io"
