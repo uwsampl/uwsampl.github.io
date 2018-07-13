@@ -7,6 +7,7 @@ description: |
 people:
   - tqchen
   - moreau
+  - vega
   - arvind
   - luisceze
   - carlos
