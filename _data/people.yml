@@ -112,6 +112,12 @@ kirisame:
     role: ugrad
     webpage: "http://marisa.moe"
     image: /img/people/kirisame.jpg
+    
+lmzheng:
+    display_name: "Lianmin Zheng"
+    role: ugrad
+    webpage: "http://lmzheng.net"
+    image: /img/people/lmzheng.jpg
 
 seungyeop:
     display_name: "Seungyeop Han"
