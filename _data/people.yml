@@ -101,6 +101,12 @@ loganweb:
     role: grad
     image: /img/people/loganweb.jpg
 
+patelp1:
+    display_name: "Pratyush Patel"
+    webpage: "https://homes.cs.washington.edu/~patelp1/"
+    role: grad
+    image: /img/people/patelp1.jpg
+
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
