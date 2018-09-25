@@ -1,5 +1,5 @@
-name: SAML
-url: http://uwsaml.github.io # Update to be CS web address
+name: SAMPL
+url: http://uwSAMPL.github.io # Update to be CS web address
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
