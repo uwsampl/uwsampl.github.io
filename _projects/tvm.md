@@ -29,7 +29,7 @@ TVM stack is a unified optimization stack that will close the gap between the pr
 
 
 {:center: style="text-align: center"}
-![image](https://www.tvm.ai/images/main/stack_tvmlang.png){: width="90%"}
+![image](http://www.tvm.ai/images/main/stack_tvmlang.png){: width="90%"}
 {:center}
 
 
