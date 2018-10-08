@@ -8,6 +8,7 @@ people:
   - tqchen
   - moreau
   - eqy
+  - lmzheng
   - haichen
   - cowanmeg
   - jroesch
