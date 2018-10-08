@@ -2,7 +2,7 @@
 title: TVM Stack
 
 description: |
-  End to End Optimization Stack for Deep Learning
+  TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
 
 people:
   - tqchen
@@ -29,9 +29,9 @@ TVM stack is a unified optimization stack that will close the gap between the pr
 
 
 {:center: style="text-align: center"}
-![image](http://www.tvmlang.org/images/main/stack_tvmlang.png){: width="90%"}
+![image](https://www.tvm.ai/images/main/stack_tvmlang.png){: width="90%"}
 {:center}
 
 
-Checkout our techreport [TVM: End-to-End Optimization Stack for Deep Learning](https://arxiv.org/abs/1802.04799)
-and latest updates at [tvmlang.org](http://tvmlang.org).
+Checkout our techreport [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/abs/1802.04799)
+and latest updates at [tvm.ai](https://tvm.ai).
