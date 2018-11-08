@@ -9,7 +9,7 @@ people:
   - sslyu
   - kirisame
   - loganweb
-  - jmp
+  - joshpoll
   - tqchen
   - ztatlock
 
