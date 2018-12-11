@@ -113,11 +113,18 @@ jwfromm:
     role: grad
     image: /img/people/jwfromm.png
 
+gussmith:
+    display_name: "Gus Smith"
+    webpage: "http://justg.us"
+    role: grad
+    image: /img/people/gussmith.png
+    
 ziheng:
     display_name: "Ziheng Jiang"
     webpage: "http://ziheng.org"
     role: grad
     image: /img/people/ziheng.jpg
+
 
 joshpoll:
     display_name: "Josh Pollock"
