@@ -113,6 +113,12 @@ jwfromm:
     role: grad
     image: /img/people/jwfromm.png
 
+gussmith:
+    display_name: "Gus Smith"
+    webpage: "http://justg.us"
+    role: grad
+    image: /img/people/gussmith.png
+
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
