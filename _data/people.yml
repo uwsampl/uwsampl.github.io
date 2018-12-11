@@ -113,6 +113,12 @@ jwfromm:
     role: grad
     image: /img/people/jwfromm.png
 
+ziheng:
+    display_name: "Ziheng Jiang"
+    weibpage: "https://ziheng.org"
+    role: grad
+    image: /img/people/ziheng.jpg
+
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
@@ -148,7 +154,7 @@ amar:
     webpage: "https://www.microsoft.com/en-us/research/people/amar/"
     role: postdoc
     image: /img/people/amar.jpg
-    
+
 # ugrad-e:
 #     display_name: "Ugrad E"
 #     role: ugrad
