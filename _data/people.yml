@@ -40,7 +40,7 @@ ztatlock:
     bio: "Assistant Professor"
 
 
-# Postdocs
+# Postdocs/Collaborators
 # Alphabetical order
 
 moreau:
@@ -52,13 +52,13 @@ moreau:
 jacob:
     display_name: Jacob Nelson
     webpage: "https://nelsonje.github.io/"
-    role: postdoc
+    role: collab
     image: /img/people/jacob.jpg
 
 amar:
     display_name: Amar Phanishayee
     webpage: "https://www.microsoft.com/en-us/research/people/amar/"
-    role: postdoc
+    role: collab
     image: /img/people/amar.jpg
 
 # Grads
