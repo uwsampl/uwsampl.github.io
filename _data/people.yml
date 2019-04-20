@@ -87,7 +87,7 @@ tqchen:
 haichen:
     display_name: "Haichen Shen"
     webpage: "https://homes.cs.washington.edu/~haichen/"
-    role: grad
+    role: alum
     image: /img/people/haichen.jpg
     
 liangluo:
@@ -140,7 +140,7 @@ kirisame:
     
 lmzheng:
     display_name: "Lianmin Zheng"
-    role: ugrad
+    role: ugrad-alum
     webpage: "http://lmzheng.net"
     image: /img/people/lmzheng.jpg
 
