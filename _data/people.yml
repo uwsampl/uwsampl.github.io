@@ -1,3 +1,5 @@
+# Faculty
+# Alphabetical order
 
 luisceze:
     display_name: "Luis Ceze"
@@ -22,6 +24,12 @@ arvind:
     image: /img/people/arvind.png
     bio: "Professor"
 
+matthai:
+    display_name: Matthai Philipose
+    webpage: "https://homes.cs.washington.edu/~matthai/"
+    role: faculty
+    image: /img/people/matthai.jpg
+    bio: "Affiliate Professor"
 
 ztatlock:
     display_name: "Zachary Tatlock "
@@ -31,20 +39,9 @@ ztatlock:
     image: /img/people/ztatlock.jpg
     bio: "Assistant Professor"
 
-matthai:
-    display_name: Matthai Philipose
-    webpage: "https://homes.cs.washington.edu/~matthai/"
-    role: faculty
-    image: /img/people/matthai.jpg
-    bio: "Affiliate Professor"
 
-
-
-cowanmeg:
-    display_name: "Meghan Cowan"
-    webpage: "https://cowanmeg.github.io/"
-    role: grad
-    image: /img/people/meghan.jpg
+# Postdocs
+# Alphabetical order
 
 moreau:
     display_name: "Thierry Moreau"
@@ -52,30 +49,21 @@ moreau:
     role: postdoc
     image: /img/people/moreau.jpg
 
-eqy:
-    display_name: "Eddie Yan"
-    webpage: "https://homes.cs.washington.edu/~eqy/"
-    role: grad
-    image: /img/people/eddie.jpg
+jacob:
+    display_name: Jacob Nelson
+    webpage: "https://nelsonje.github.io/"
+    role: postdoc
+    image: /img/people/jacob.jpg
 
-vega:
-    display_name: "Luis Vega"
-    webpage: "https://homes.cs.washington.edu/~vegaluis/"
-    role: grad
-    image: /img/people/vega.jpg
-    
-jroesch:
-    display_name: "Jared Roesch"
-    webpage: "https://jroesch.github.io"
-    github: jroesch
-    role: grad
-    image: /img/people/jroesch.jpg
+amar:
+    display_name: Amar Phanishayee
+    webpage: "https://www.microsoft.com/en-us/research/people/amar/"
+    role: postdoc
+    image: /img/people/amar.jpg
 
-sslyu:
-    display_name: "Steven Lyubomirsky"
-    webpage: "https://homes.cs.washington.edu/~sslyu/"
-    role: grad
-    image: /img/people/sslyu.jpg
+# Grads
+# Alphabetical order
+
 
 tqchen:
     display_name: "Tianqi Chen"
@@ -84,28 +72,11 @@ tqchen:
     role: grad
     image: /img/people/tqchen.jpg
 
-haichen:
-    display_name: "Haichen Shen"
-    webpage: "https://homes.cs.washington.edu/~haichen/"
-    role: alum
-    image: /img/people/haichen.jpg
-    
-liangluo:
-    display_name: "Liang Luo"
-    webpage: "https://homes.cs.washington.edu/~liangluo"
+cowanmeg:
+    display_name: "Meghan Cowan"
+    webpage: "https://cowanmeg.github.io/"
     role: grad
-    image: /img/people/liangluo.jpg
-
-loganweb:
-    display_name: "Logan Weber"
-    role: grad
-    image: /img/people/loganweb.jpg
-
-patelp1:
-    display_name: "Pratyush Patel"
-    webpage: "https://homes.cs.washington.edu/~patelp1/"
-    role: grad
-    image: /img/people/patelp1.jpg
+    image: /img/people/meghan.jpg
 
 jwfromm:
     display_name: "Josh Fromm"
@@ -113,18 +84,85 @@ jwfromm:
     role: grad
     image: /img/people/jwfromm.png
 
-gussmith:
-    display_name: "Gus Smith"
-    webpage: "http://justg.us"
-    role: grad
-    image: /img/people/gussmith.png
-    
 ziheng:
     display_name: "Ziheng Jiang"
     webpage: "http://ziheng.org"
     role: grad
     image: /img/people/ziheng.jpg
 
+liangluo:
+    display_name: "Liang Luo"
+    webpage: "https://homes.cs.washington.edu/~liangluo"
+    role: grad
+    image: /img/people/liangluo.jpg
+
+sslyu:
+    display_name: "Steven Lyubomirsky"
+    webpage: "https://homes.cs.washington.edu/~sslyu/"
+    role: grad
+    image: /img/people/sslyu.jpg
+
+patelp1:
+    display_name: "Pratyush Patel"
+    webpage: "https://homes.cs.washington.edu/~patelp1/"
+    role: grad
+    image: /img/people/patelp1.jpg
+
+jroesch:
+    display_name: "Jared Roesch"
+    webpage: "https://jroesch.github.io"
+    github: jroesch
+    role: grad
+    image: /img/people/jroesch.jpg
+
+gussmith:
+    display_name: "Gus Smith"
+    webpage: "http://justg.us"
+    role: grad
+    image: /img/people/gussmith.png
+
+vega:
+    display_name: "Luis Vega"
+    webpage: "https://homes.cs.washington.edu/~vegaluis/"
+    role: grad
+    image: /img/people/vega.jpg
+
+loganweb:
+    display_name: "Logan Weber"
+    role: grad
+    image: /img/people/loganweb.jpg
+
+eqy:
+    display_name: "Eddie Yan"
+    webpage: "https://homes.cs.washington.edu/~eqy/"
+    role: grad
+    image: /img/people/eddie.jpg
+
+# Alums
+# The order is: PhD/postdoc by year; MS by year; BS by year
+
+haichen:
+    display_name: "Haichen Shen"
+    webpage: "https://homes.cs.washington.edu/~haichen/"
+    role: alum
+    image: /img/people/haichen.jpg
+    bio: "Ph.D., 2018. Now at AWS AI."
+    
+seungyeop:
+    display_name: "Seungyeop Han"
+    webpage: "http://haneul.github.io/"
+    role: alum
+    image: /img/people/syhan.jpg
+    bio: "Ph.D., 2016. Now at Rubrik, Inc."
+
+# Undergrads
+# Alphabetical order
+
+kirisame:
+    display_name: "Marisa Kirisame"
+    role: ugrad
+    webpage: "http://marisa.moe"
+    image: /img/people/kirisame.jpg
 
 joshpoll:
     display_name: "Josh Pollock"
@@ -132,35 +170,16 @@ joshpoll:
     webgpage: "https://github.com/joshpoll"
     image: /img/people/joshpoll.jpg
 
-kirisame:
-    display_name: "Marisa Kirisame"
-    role: ugrad
-    webpage: "http://marisa.moe"
-    image: /img/people/kirisame.jpg
-    
+# Undergrad Alums
+# Alphabetical order
+
 lmzheng:
     display_name: "Lianmin Zheng"
     role: ugrad-alum
     webpage: "http://lmzheng.net"
     image: /img/people/lmzheng.jpg
+    bio: "Interned in 2018. Now at Berkeley Ph.D. program."
 
-seungyeop:
-    display_name: "Seungyeop Han"
-    webpage: "http://haneul.github.io/"
-    role: alum
-    image: /img/people/syhan.jpg
-    
-jacob:
-    display_name: Jacob Nelson
-    webpage: "https://nelsonje.github.io/"
-    role: postdoc
-    image: /img/people/jacob.jpg
-    
-amar:
-    display_name: Amar Phanishayee
-    webpage: "https://www.microsoft.com/en-us/research/people/amar/"
-    role: postdoc
-    image: /img/people/amar.jpg
 
 # ugrad-e:
 #     display_name: "Ugrad E"
