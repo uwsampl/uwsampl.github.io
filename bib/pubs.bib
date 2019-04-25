@@ -1,18 +1,29 @@
 @Article{VTA,
-  author = {Thierry Moreau and Tianqi Chen and Ziheng Jiang and Luis Ceze and Carlos Guestrin and Arvind Krishnamurthy},
-  title = {VTA: An Open Hardware-Software Stack for Deep Learning},
+  author = {Thierry Moreau and Tianqi Chen and Luis Vega and Jared Roesch and Eddie Yan and Lianmin Zheng and Josh Fromm and Ziheng Jiang and Luis Ceze and Carlos Guestrin and Arvind Krishnamurthy},
+  title = {A Hardware-Software Blueprint for Deep Learning Specialization},
   journal = {arXiv preprint},
-  volume = {abs/1807.04188},
+  volume = {abs/1807.04188v3},
   archivePrefix = {arXiv},
-  year = 2018,
-  month = 7,
-  url = {https://arxiv.org/abs/1807.04188}
+  year = 2019,
+  month = 4,
+  url = {https://arxiv.org/abs/1807.04188v3}
+}
+
+@inproceedings{Relay,
+ author = {Roesch, Jared and Lyubomirsky, Steven and Kirisame, Marisa and Pollock, Josh and Weber, Logan and Jiang, Ziheng and Chen, Tianqi and Moreau, Thierry and Tatlock, Zachary},
+ title = {Relay: A High-Level IR for Deep Learning},
+ journal = {arXiv preprint},
+ volume = {abs/1904.08368v1},
+ archivePrefix = {arXiv},
+ year = 2019,
+ month = 4,
+ url = {https://arxiv.org/abs/1904.08368v1}
 }
 
 @InProceedings{AutoTVM,
   author = {Tianqi Chen and Lianmin Zheng and Eddie Yan and Ziheng Jiang and Thierry Moreau and Luis Ceze and Carlos Guestrin and Arvind Krishnamurthy},
   title = {Learning to Optimize Tensor Programs},
-  booktitle = {Neural Information Processing Systems  2018(to appear)},
+  booktitle = {Neural Information Processing Systems},
   year = 2018,
   month = 5,
   url = {https://arxiv.org/abs/1805.08166}
@@ -25,6 +36,23 @@
   year = 2018,
   month = 4,
   url = {https://arxiv.org/abs/1802.04799}
+}
+
+@InProceedings{parameter-hub-a-rack-scale-parameter-server-for-distributed-deep-neural-network-training,
+author = {Luo, Liang and Nelson, Jacob and Ceze, Luis and Phanishayee, Amar and , Arvind Krishnamurthy},
+title = {Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training},
+booktitle = {SOCC 2018},
+year = {2018},
+month = {October},
+abstract = {},
+publisher = {SOCC 2018},
+url = {https://www.microsoft.com/en-us/research/publication/parameter-hub-a-rack-scale-parameter-server-for-distributed-deep-neural-network-training/},
+address = {},
+pages = {},
+journal = {},
+volume = {},
+chapter = {},
+isbn = {},
 }
 
 @inproceedings{RelayMAPL,
@@ -55,24 +83,6 @@
   url = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8341970}
 }
 
-@InProceedings{XGBoostKDD,
-  author = {Tianqi Chen and Carlos Guestrin},
-  title = {XGBoost: A Scalable Tree Boosting System},
-  booktitle = {KDD 2016},
-  year = 2016,
-  month = 8,
-  url = {https://arxiv.org/abs/1603.02754}
-}
-
-@InProceedings{MXNetLearningSys,
-  author = {Tianqi Chen and Mu Li and Yutian Li and Min Lin and Naiyan Wang and Minjie Wang and Tianjun Xiao and Bing Xu and Chiyuan Zhang and Zheng Zhang},
-  title = {MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems},
-  booktitle = {LearningSys Workshop at Neural Information Processing Systems 2015},
-  year = 2015,
-  month = 12,
-  url = {https://arxiv.org/abs/1512.01274}
-}
-
 @InProceedings{PHubSysML,
   author = {Liang Luo and Jacob Nelson and Luis Ceze and Amar Phanishayee and Arvind Krishnamurthy},
   title = {Parameter Hub: High Performance Parameter Servers for Efficient Distributed Deep Neural Network Training},
@@ -80,24 +90,6 @@
   year = 2018,
   month = 2,
   url = {http://www.sysml.cc/doc/16.pdf}
-}
-
-@InProceedings{SNNAPHPCA,
-  author = {Thierry Moreau and Mark Wyse and Jacob Nelson and Adrian Sampson and Hadi Esmaeilzadeh and Luis Ceze and Mark Oskin},
-  title = {SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration},
-  booktitle = {HPCA 2015},
-  year = 2015,
-  month = 2,
-  url = {http://ieeexplore.ieee.org/abstract/document/7056066/}
-}
-
-@InProceedings{han16-mobisys,
-  author = {Seungyeop Han and Haichen Shen and Matthai Philipose and Sharad Agarwal and Alec Wolman and Arvind Krishnamurthy},
-  title = {{MCDNN}: An Approximation-Based Execution Framework for Deep Stream Processing Under Resource Constraints},
-  booktitle = {MobiSys 2016},
-  month = 6,
-  Year = 2016,
-  url = {https://dl.acm.org/citation.cfm?id=2906396}
 }
 
 @InProceedings{shen17-cvpr,
@@ -111,19 +103,38 @@
   note = {Spotlight},
 }
 
-@InProceedings{parameter-hub-a-rack-scale-parameter-server-for-distributed-deep-neural-network-training,
-author = {Luo, Liang and Nelson, Jacob and Ceze, Luis and Phanishayee, Amar and , Arvind Krishnamurthy},
-title = {Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training},
-booktitle = {SOCC 2018},
-year = {2018},
-month = {October},
-abstract = {},
-publisher = {SOCC 2018},
-url = {https://www.microsoft.com/en-us/research/publication/parameter-hub-a-rack-scale-parameter-server-for-distributed-deep-neural-network-training/},
-address = {},
-pages = {},
-journal = {},
-volume = {},
-chapter = {},
-isbn = {},
+@InProceedings{XGBoostKDD,
+  author = {Tianqi Chen and Carlos Guestrin},
+  title = {XGBoost: A Scalable Tree Boosting System},
+  booktitle = {KDD 2016},
+  year = 2016,
+  month = 8,
+  url = {https://arxiv.org/abs/1603.02754}
+}
+
+@InProceedings{han16-mobisys,
+  author = {Seungyeop Han and Haichen Shen and Matthai Philipose and Sharad Agarwal and Alec Wolman and Arvind Krishnamurthy},
+  title = {{MCDNN}: An Approximation-Based Execution Framework for Deep Stream Processing Under Resource Constraints},
+  booktitle = {MobiSys 2016},
+  month = 6,
+  Year = 2016,
+  url = {https://dl.acm.org/citation.cfm?id=2906396}
+}
+
+@InProceedings{MXNetLearningSys,
+  author = {Tianqi Chen and Mu Li and Yutian Li and Min Lin and Naiyan Wang and Minjie Wang and Tianjun Xiao and Bing Xu and Chiyuan Zhang and Zheng Zhang},
+  title = {MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems},
+  booktitle = {LearningSys Workshop at Neural Information Processing Systems 2015},
+  year = 2015,
+  month = 12,
+  url = {https://arxiv.org/abs/1512.01274}
+}
+
+@InProceedings{SNNAPHPCA,
+  author = {Thierry Moreau and Mark Wyse and Jacob Nelson and Adrian Sampson and Hadi Esmaeilzadeh and Luis Ceze and Mark Oskin},
+  title = {SNNAP: Approximate Computing on Programmable SoCs via Neural Acceleration},
+  booktitle = {HPCA 2015},
+  year = 2015,
+  month = 2,
+  url = {http://ieeexplore.ieee.org/abstract/document/7056066/}
 }
