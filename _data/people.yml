@@ -158,6 +158,12 @@ seungyeop:
 # Undergrads
 # Alphabetical order
 
+altanh:
+    display_name: "Altan Haan"
+    role: ugrad
+    webpage: "https://homes.cs.washington.edu/~altanh/"
+    image: /img/people/altan.jpg
+
 kirisame:
     display_name: "Marisa Kirisame"
     role: ugrad
