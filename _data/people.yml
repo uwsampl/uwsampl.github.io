@@ -173,8 +173,14 @@ kirisame:
 joshpoll:
     display_name: "Josh Pollock"
     role: ugrad
-    webgpage: "https://github.com/joshpoll"
+    webpage: "https://github.com/joshpoll"
     image: /img/people/joshpoll.jpg
+
+yulun:
+    display_name: "Yulun Yao"
+    role: ugrad
+    webpage: "https://yulunyao.io"
+    image: /img/people/yulun.jpg
 
 # Undergrad Alums
 # Alphabetical order
