@@ -164,6 +164,11 @@ altanh:
     webpage: "https://homes.cs.washington.edu/~altanh/"
     image: /img/people/altan.jpg
 
+benjamin:
+    display_name: "Benjamin Tu"
+    role: ugrad
+    image: /img/people/benjamin.jpg
+
 kirisame:
     display_name: "Marisa Kirisame"
     role: ugrad
@@ -176,17 +181,17 @@ joshpoll:
     webpage: "https://github.com/joshpoll"
     image: /img/people/joshpoll.jpg
 
-yulun:
-    display_name: "Yulun Yao"
-    role: ugrad
-    webpage: "https://yulunyao.io"
-    image: /img/people/yulun.jpg
-
 syfeng:
     display_name: "Siyuan Feng"
     role: ugrad
     webpage: "https://syfeng.net"
     image: /img/people/syfeng.jpg
+
+yulun:
+    display_name: "Yulun Yao"
+    role: ugrad
+    webpage: "https://yulunyao.io"
+    image: /img/people/yulun.jpg
 
 # Undergrad Alums
 # Alphabetical order
