@@ -182,6 +182,12 @@ yulun:
     webpage: "https://yulunyao.io"
     image: /img/people/yulun.jpg
 
+syfeng:
+    display_name: "Siyuan Feng"
+    role: ugrad
+    webpage: "https://syfeng.net"
+    image: /img/people/syfeng.jpg
+
 # Undergrad Alums
 # Alphabetical order
 
