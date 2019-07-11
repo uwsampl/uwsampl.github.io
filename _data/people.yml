@@ -182,6 +182,11 @@ yulun:
     webpage: "https://yulunyao.io"
     image: /img/people/yulun.jpg
 
+benjamin:
+    display_name: "Benjamin Tu"
+    role: ugrad
+    image: /img/people/benjamin.jpg
+
 # Undergrad Alums
 # Alphabetical order
 
