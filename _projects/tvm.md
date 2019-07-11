@@ -20,6 +20,7 @@ people:
   - joshpoll
   - kirisame
   - ztatlock
+  - syfeng
 
 layout: project
 last-updated: 2018-02-25
