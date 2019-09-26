@@ -138,6 +138,12 @@ eqy:
     role: grad
     image: /img/people/eddie.jpg
 
+cyulin:
+    display_name: "Chien-Yu Lin"
+    webpage: "https://homes.cs.washington.edu/~cyulin/"
+    role: grad
+    image: /img/people/chienyu.jpg
+
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
