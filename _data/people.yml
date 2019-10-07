@@ -115,6 +115,12 @@ jroesch:
     role: grad
     image: /img/people/jroesch.jpg
 
+kirisame:
+    display_name: "Marisa Kirisame"
+    role: grad
+    webpage: "http://marisa.moe"
+    image: /img/people/kirisame.jpg
+
 gussmith:
     display_name: "Gus Smith"
     webpage: "http://justg.us"
@@ -174,12 +180,6 @@ benjamin:
     display_name: "Benjamin Tu"
     role: ugrad
     image: /img/people/benjamin.jpg
-
-kirisame:
-    display_name: "Marisa Kirisame"
-    role: ugrad
-    webpage: "http://marisa.moe"
-    image: /img/people/kirisame.jpg
 
 joshpoll:
     display_name: "Josh Pollock"
