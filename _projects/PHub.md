@@ -2,7 +2,7 @@
 title: Parameter Box, Parameter Hub and Parameter Link
 
 description: |
-  Parameter Server for Efficient Distributed Deep Neural Network Training for Clusters, Datacenters, and the Public Cloud         
+  Parameter Server for Efficient Distributed Deep Neural Network Training for Clusters, Datacenters, and the Public Clouds       
 
 people:
   - liangluo
