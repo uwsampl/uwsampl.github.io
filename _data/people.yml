@@ -187,6 +187,12 @@ joshpoll:
     webpage: "https://github.com/joshpoll"
     image: /img/people/joshpoll.jpg
 
+mikehe:
+    display_name: "Mike He"
+    role: ugrad
+    webpage: "https://ad1024.space/about"
+    image: /img/people/mikehe.png
+
 syfeng:
     display_name: "Siyuan Feng"
     role: ugrad
