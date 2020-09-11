@@ -175,6 +175,12 @@ altanh:
     role: ugrad
     webpage: "https://homes.cs.washington.edu/~altanh/"
     image: /img/people/altan.jpg
+    
+andrewliu:
+    display_name: "Andrew Liu"
+    role: ugrad
+    webpage: "https://github.com/hypercubestart"
+    image: /img/people/andrewliu.jpg
 
 benjamin:
     display_name: "Benjamin Tu"
