@@ -39,6 +39,13 @@ matthai:
     image: /img/people/matthai.jpg
     bio: "Affiliate Professor"
 
+alexr:
+    display_name: Alex Ratner
+    webpage: "https://ajratner.github.io/"
+    role: faculty
+    image: /img/people/alexr.jpg
+    bio: "Assistant Professor"
+
 ztatlock:
     display_name: "Zachary Tatlock "
     webpage: "https://homes.cs.washington.edu/~ztatlock/"
