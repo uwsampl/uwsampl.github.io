@@ -64,8 +64,14 @@ ztatlock:
 
 
 # Postdocs/Collaborators
-# Alphabetical order
 
+jmcmahan:
+    display_name: "Joseph McMahan"
+    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
+    role: postdoc
+    image: /img/people/jmcmahan.jpg
+
+# Alphabetical order
 
 
 jacob:
