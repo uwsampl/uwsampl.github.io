@@ -32,6 +32,13 @@ arvind:
     image: /img/people/arvind.png
     bio: "Professor"
 
+moreau:
+    display_name: "Thierry Moreau"
+    webpage: "http://homes.cs.washington.edu/~moreau/"
+    role: faculty
+    image: /img/people/moreau.jpg
+    bio: "Affiliate Assistant Professor"
+
 matthai:
     display_name: Matthai Philipose
     webpage: "https://homes.cs.washington.edu/~matthai/"
@@ -59,11 +66,7 @@ ztatlock:
 # Postdocs/Collaborators
 # Alphabetical order
 
-moreau:
-    display_name: "Thierry Moreau"
-    webpage: "http://homes.cs.washington.edu/~moreau/"
-    role: postdoc
-    image: /img/people/moreau.jpg
+
 
 jacob:
     display_name: Jacob Nelson
