@@ -9,6 +9,14 @@ luisceze:
     image: /img/people/ceze.jpg
     bio: "Professor"
 
+tqchen:
+    display_name: "Tianqi Chen"
+    webpage: "https://tqchen.com"
+    github: tqchen
+    role: faculty
+    image: /img/people/tqchen.jpg
+    bio: "Assistant Professor - CMU"
+
 carlos:
     display_name: "Carlos Guestrin"
     webpage: "http://homes.cs.washington.edu/~guestrin/"
@@ -40,6 +48,7 @@ ztatlock:
     bio: "Assistant Professor"
 
 
+
 # Postdocs/Collaborators
 # Alphabetical order
 
@@ -65,12 +74,6 @@ amar:
 # Alphabetical order
 
 
-tqchen:
-    display_name: "Tianqi Chen"
-    webpage: "https://tqchen.com"
-    github: tqchen
-    role: grad
-    image: /img/people/tqchen.jpg
 
 cowanmeg:
     display_name: "Meghan Cowan"
@@ -78,23 +81,11 @@ cowanmeg:
     role: grad
     image: /img/people/meghan.jpg
 
-jwfromm:
-    display_name: "Josh Fromm"
-    webpage: "https://jwfromm.com"
-    role: grad
-    image: /img/people/jwfromm.png
-
 ziheng:
     display_name: "Ziheng Jiang"
     webpage: "http://ziheng.org"
     role: grad
     image: /img/people/ziheng.jpg
-
-liangluo:
-    display_name: "Liang Luo"
-    webpage: "https://homes.cs.washington.edu/~liangluo"
-    role: grad
-    image: /img/people/liangluo.jpg
 
 sslyu:
     display_name: "Steven Lyubomirsky"
@@ -152,6 +143,22 @@ cyulin:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+jwfromm:
+    display_name: "Josh Fromm"
+    webpage: "https://jwfromm.com"
+    role: alum
+    image: /img/people/jwfromm.png
+    bio: "Ph.D., 2019. Now at OctoML."    
+
+liangluo:
+    display_name: "Liang Luo"
+    webpage: "https://homes.cs.washington.edu/~liangluo"
+    role: alum
+    image: /img/people/liangluo.jpg
+    bio: "Ph.D., 2020. Now at Facebook Research."
+
+
 
 haichen:
     display_name: "Haichen Shen"
