@@ -55,11 +55,11 @@ alexr:
 
 ztatlock:
     display_name: "Zachary Tatlock "
-    webpage: "https://homes.cs.washington.edu/~ztatlock/"
+    webpage: "https://ztatlock.net/"
     github: ztatlock
     role: faculty
     image: /img/people/ztatlock.jpg
-    bio: "Assistant Professor"
+    bio: "Associate Professor"
 
 
 
