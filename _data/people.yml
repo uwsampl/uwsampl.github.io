@@ -157,6 +157,12 @@ cyulin:
     role: grad
     image: /img/people/chienyu.jpg
 
+zhye:
+    display_name: "Zihao Ye"
+    webpage: "https://homes.cs.washington.edu/~zhye"
+    role: grad
+    image: /img/people/zhye.jpg
+
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
