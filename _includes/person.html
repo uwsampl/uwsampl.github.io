@@ -28,14 +28,16 @@ there by default by Bootstrap columns.
 {% endif %}
 
 {% if include.image %}
-    <div class="person person-with-image row align-items-stretch">
+    <div class="person person-with-image row align-items-center">
         <div class="col-auto">
             {% include person-image.html person=person %}
         </div>
         <div class="col pl-0">
             <h6 class="person-name"> {{ name }} </h6>
             {% if person.bio %}
-                <div class="bio">{{person.bio}}</div>
+                {% if person.role != "alum" and person.role != "ugrad-alum" %}
+                    <div class="bio">{{person.bio}}</div>
+                {% endif %}
             {% endif %}
         </div>
     </div>
