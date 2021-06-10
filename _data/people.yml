@@ -65,14 +65,7 @@ ztatlock:
 
 # Postdocs/Collaborators
 
-jmcmahan:
-    display_name: "Joseph McMahan"
-    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
-    role: postdoc
-    image: /img/people/jmcmahan.jpg
-
 # Alphabetical order
-
 
 jacob:
     display_name: Jacob Nelson
@@ -127,6 +120,13 @@ zhye:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+jmcmahan:
+    display_name: "Joseph McMahan"
+    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
+    role: alum
+    image: /img/people/jmcmahan.jpg
+    bio: "Postdoc, 2021. Now at NVIDIA."
 
 cowanmeg:
     display_name: "Meghan Cowan"
