@@ -35,7 +35,9 @@ there by default by Bootstrap columns.
         <div class="col pl-0">
             <h6 class="person-name"> {{ name }} </h6>
             {% if person.bio %}
-                <div class="bio">{{person.bio}}</div>
+                {% if person.role != "alum" and person.role != "ugrad-alum" %}
+                    <div class="bio">{{person.bio}}</div>
+                {% endif %}
             {% endif %}
         </div>
     </div>

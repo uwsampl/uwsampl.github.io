@@ -65,14 +65,7 @@ ztatlock:
 
 # Postdocs/Collaborators
 
-jmcmahan:
-    display_name: "Joseph McMahan"
-    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
-    role: postdoc
-    image: /img/people/jmcmahan.jpg
-
 # Alphabetical order
-
 
 jacob:
     display_name: Jacob Nelson
@@ -89,20 +82,6 @@ amar:
 # Grads
 # Alphabetical order
 
-
-
-cowanmeg:
-    display_name: "Meghan Cowan"
-    webpage: "https://cowanmeg.github.io/"
-    role: grad
-    image: /img/people/meghan.jpg
-
-ziheng:
-    display_name: "Ziheng Jiang"
-    webpage: "http://ziheng.org"
-    role: grad
-    image: /img/people/ziheng.jpg
-
 sslyu:
     display_name: "Steven Lyubomirsky"
     webpage: "https://homes.cs.washington.edu/~sslyu/"
@@ -115,19 +94,6 @@ patelp1:
     role: grad
     image: /img/people/patelp1.jpg
 
-jroesch:
-    display_name: "Jared Roesch"
-    webpage: "https://jroesch.github.io"
-    github: jroesch
-    role: grad
-    image: /img/people/jroesch.jpg
-
-kirisame:
-    display_name: "Marisa Kirisame"
-    role: grad
-    webpage: "http://marisa.moe"
-    image: /img/people/kirisame.jpg
-
 gussmith:
     display_name: "Gus Smith"
     webpage: "http://justg.us"
@@ -139,17 +105,6 @@ vega:
     webpage: "https://homes.cs.washington.edu/~vegaluis/"
     role: grad
     image: /img/people/vega.jpg
-
-loganweb:
-    display_name: "Logan Weber"
-    role: grad
-    image: /img/people/loganweb.jpg
-
-eqy:
-    display_name: "Eddie Yan"
-    webpage: "https://homes.cs.washington.edu/~eqy/"
-    role: grad
-    image: /img/people/eddie.jpg
 
 cyulin:
     display_name: "Chien-Yu Lin"
@@ -166,12 +121,34 @@ zhye:
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
-jwfromm:
-    display_name: "Josh Fromm"
-    webpage: "https://jwfromm.com"
+jmcmahan:
+    display_name: "Joseph McMahan"
+    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
     role: alum
-    image: /img/people/jwfromm.png
-    bio: "Ph.D., 2019. Now at OctoML."    
+    image: /img/people/jmcmahan.jpg
+    bio: "Postdoc, 2021. Now at NVIDIA."
+
+cowanmeg:
+    display_name: "Meghan Cowan"
+    webpage: "https://cowanmeg.github.io/"
+    role: alum
+    image: /img/people/meghan.jpg
+    bio: "Ph.D., 2021. Now at Microsoft Research."
+
+jroesch:
+    display_name: "Jared Roesch"
+    webpage: "https://jroesch.github.io"
+    github: jroesch
+    role: alum
+    image: /img/people/jroesch.jpg
+    bio: "Ph.D. 2020. Now at OctoML."
+
+eqy:
+    display_name: "Eddie Yan"
+    webpage: "https://homes.cs.washington.edu/~eqy/"
+    role: alum
+    image: /img/people/eddie.jpg
+    bio: "Ph.D., 2020. Now at NVIDIA."
 
 liangluo:
     display_name: "Liang Luo"
@@ -180,7 +157,12 @@ liangluo:
     image: /img/people/liangluo.jpg
     bio: "Ph.D., 2020. Now at Facebook Research."
 
-
+jwfromm:
+    display_name: "Josh Fromm"
+    webpage: "https://jwfromm.com"
+    role: alum
+    image: /img/people/jwfromm.png
+    bio: "Ph.D., 2019. Now at OctoML."    
 
 haichen:
     display_name: "Haichen Shen"
@@ -196,31 +178,35 @@ seungyeop:
     image: /img/people/syhan.jpg
     bio: "Ph.D., 2016. Now at Rubrik, Inc."
 
+loganweb:
+    display_name: "Logan Weber"
+    role: alum
+    webpage: "https://weberlo.github.io/"
+    image: /img/people/loganweb.jpg
+    bio: "MS, 2020. Now at MIT Ph.D. program."
+
+kirisame:
+    display_name: "Marisa Kirisame"
+    role: alum
+    webpage: "http://marisa.moe"
+    image: /img/people/kirisame.jpg
+    bio: "MS, 2020. Now at Utah Ph.D. program."
+
+ziheng:
+    display_name: "Ziheng Jiang"
+    webpage: "http://ziheng.org"
+    role: alum
+    image: /img/people/ziheng.jpg
+    bio: "MS, 2020. Now at OctoML."
+
 # Undergrads
 # Alphabetical order
-
-altanh:
-    display_name: "Altan Haan"
-    role: ugrad
-    webpage: "https://homes.cs.washington.edu/~altanh/"
-    image: /img/people/altan.jpg
-    
+   
 andrewliu:
     display_name: "Andrew Liu"
     role: ugrad
     webpage: "https://github.com/hypercubestart"
     image: /img/people/andrewliu.jpg
-
-benjamin:
-    display_name: "Benjamin Tu"
-    role: ugrad
-    image: /img/people/benjamin.jpg
-
-joshpoll:
-    display_name: "Josh Pollock"
-    role: ugrad
-    webpage: "https://github.com/joshpoll"
-    image: /img/people/joshpoll.jpg
 
 mikehe:
     display_name: "Mike He"
@@ -228,20 +214,42 @@ mikehe:
     webpage: "https://ad1024.space/about"
     image: /img/people/mikehe.jpg
 
+# Undergrad Alums
+# Alphabetical order
+
+altanh:
+    display_name: "Altan Haan"
+    role: ugrad-alum
+    webpage: "https://homes.cs.washington.edu/~altanh/"
+    image: /img/people/altan.jpg
+    bio: "Interned in 2019-2020. Now at Berkeley Ph.D. program."
+
 syfeng:
     display_name: "Siyuan Feng"
-    role: ugrad
+    role: ugrad-alum
     webpage: "https://syfeng.net"
     image: /img/people/syfeng.jpg
+    bio: "Interned in 2019. Now at SJTU Ph.D. program."
 
 yulun:
     display_name: "Yulun Yao"
-    role: ugrad
+    role: ugrad-alum
     webpage: "https://yulunyao.io"
     image: /img/people/yulun.jpg
+    bio: "Interned in 2019. Now at Cornell Ph.D. program."
 
-# Undergrad Alums
-# Alphabetical order
+benjamin:
+    display_name: "Benjamin Tu"
+    role: ugrad-alum
+    image: /img/people/benjamin.jpg
+    bio: "Interned in 2019. Now at UIUC MS program."
+
+joshpoll:
+    display_name: "Josh Pollock"
+    role: ugrad-alum
+    webpage: "https://github.com/joshpoll"
+    image: /img/people/joshpoll.jpg
+    bio: "Interned in 2018-2019. Now at MIT Ph.D. program."
 
 lmzheng:
     display_name: "Lianmin Zheng"
