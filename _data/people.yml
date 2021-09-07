@@ -32,6 +32,13 @@ arvind:
     image: /img/people/arvind.png
     bio: "Professor"
 
+taylor:
+    display_name: "Michael Taylor"
+    webpage: "https://www.cs.washington.edu/people/faculty/profmbt"
+    role: faculty
+    image: /img/people/mbt.jpg
+    bio: "Professor"
+
 moreau:
     display_name: "Thierry Moreau"
     webpage: "http://homes.cs.washington.edu/~moreau/"
