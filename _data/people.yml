@@ -125,6 +125,21 @@ zhye:
     role: grad
     image: /img/people/zhye.jpg
 
+hwpeng:
+    display_name: "Huwan Peng"
+    webpage: "mailto:hwpeng@uw.edu"
+    role: grad
+
+bandhav:
+    display_name: "Bandhav Veluri"
+    webpage: "bandhav@cs.washington.edu"
+    role: grad
+
+reshabh:
+    display_name: "Reshabh Sharma"
+    webpage: "reshabh@cs.washington.edu"
+    role: grad
+
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
