@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SAMPL Talk
+title: SAMPL Talks
 ---
 
 # Links
