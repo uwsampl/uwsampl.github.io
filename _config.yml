@@ -50,5 +50,7 @@ navigation:
     link: /research.html
   - title: Publications
     link: /publications.html
+  - title: Talks
+    link: /talks.html
   - title: Code
     link: /code.html

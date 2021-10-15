@@ -3,3 +3,4 @@ _includes/pubs.html
 /test-deploy.sh
 *~
 *.DS_Store
+.jekyll-cache/
