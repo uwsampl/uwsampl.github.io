@@ -89,6 +89,12 @@ amar:
 # Grads
 # Alphabetical order
 
+jrb:
+    display_name: "Jennifer Brennan"
+    webpage: "https://homes.cs.washington.edu/~jrogers3/"
+    role: grad
+    image: /img/people/jrb.jpg
+
 sslyu:
     display_name: "Steven Lyubomirsky"
     webpage: "https://homes.cs.washington.edu/~sslyu/"
