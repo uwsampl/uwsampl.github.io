@@ -19,14 +19,14 @@ Join the following channels for updates and notifications:
 
 Every Thursday, 12:00pm to 13:00pm on Zoom. 
 
-| Date   | Speaker                                   | Title                | Videos |
-|--------|-------------------------------------------|----------------------|--------|
-| Oct 7  |                                           | N/A                  |        |
-| Oct 14 |                                           | N/A                  |        |
-| Oct 21 |                                           | N/A                  |        |
-| Oct 28 |                                           | Brainstorm           |        |
-| Nov 4  | Mangpo Phothilimthana <br /> Google Brain |                      |        |
-| Nov 11 |                                           | N/A                  |        |
-| Nov 18 | Yi-Hsiang (Sean) Lai <br /> Cornell       |                      |        |
-| Nov 25 |                                           | Thanksgiving holiday |        |
-| Dev 2  | Vinod Grover <br /> NVIDIA                |                      |        |
+| Date   | Speaker                                   | Title                                                                                           | Videos   |
+|--------+-------------------------------------------+-------------------------------------------------------------------------------------------------+----------|
+| Oct 7  |                                           | N/A                                                                                             |          |
+| Oct 14 |                                           | N/A                                                                                             |          |
+| Oct 21 |                                           | N/A                                                                                             |          |
+| Oct 28 |                                           | Brainstorm                                                                                      |          |
+| Nov 4  | Mangpo Phothilimthana <br /> Google Brain | Autotuning Production Machine Learning Compilers                                                | [link]() |
+| Nov 11 |                                           | N/A                                                                                             |          |
+| Nov 18 | Yi-Hsiang (Sean) Lai <br /> Cornell       | Decoupling Algorithm from Hardware Customizations for Software-Defined Reconfigurable Computing | [link]() |
+| Nov 25 |                                           | Thanksgiving holiday                                                                            |          |
+| Dev 2  | Vinod Grover <br /> NVIDIA                |                                                                                                 |          |
