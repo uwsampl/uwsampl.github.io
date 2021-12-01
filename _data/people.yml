@@ -133,17 +133,17 @@ zhye:
 
 hwpeng:
     display_name: "Huwan Peng"
-    webpage: "mailto:hwpeng@uw.edu"
+    webpage: "http://students.washington.edu/hwpeng/"
     role: grad
 
 bandhav:
     display_name: "Bandhav Veluri"
-    webpage: "bandhav@cs.washington.edu"
+    webpage: "mailto:bandhav@cs.washington.edu"
     role: grad
 
 reshabh:
     display_name: "Reshabh Sharma"
-    webpage: "reshabh@cs.washington.edu"
+    webpage: "https://homes.cs.washington.edu/~reshabh/"
     role: grad
 
 # Alums
@@ -151,7 +151,7 @@ reshabh:
 
 jmcmahan:
     display_name: "Joseph McMahan"
-    webpage: "https://homes.cs.washington.edu/~jmcmahan/"
+    webpage: "https://josephmcmahan.me/"
     role: alum
     image: /img/people/jmcmahan.jpg
     bio: "Postdoc, 2021. Now at OctoML."
@@ -194,7 +194,7 @@ jwfromm:
 
 haichen:
     display_name: "Haichen Shen"
-    webpage: "https://homes.cs.washington.edu/~haichen/"
+    webpage: "https://shenhaichen.com/"
     role: alum
     image: /img/people/haichen.jpg
     bio: "Ph.D., 2018. Now at AWS AI."
@@ -262,7 +262,7 @@ syfeng:
 yulun:
     display_name: "Yulun Yao"
     role: ugrad-alum
-    webpage: "https://yulunyao.io"
+    webpage: "https://www.csl.cornell.edu/~yy665/"
     image: /img/people/yulun.jpg
     bio: "Interned in 2019. Now at Cornell Ph.D. program."
 

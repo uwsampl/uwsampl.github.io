@@ -29,4 +29,4 @@ Every Thursday, 12:00pm to 13:00pm on Zoom.
 | Nov 11 |                                           | N/A                                                                                             |          |
 | Nov 18 | Yi-Hsiang (Sean) Lai <br /> (Cornell)       | Decoupling Algorithm from Hardware Customizations for Software-Defined Reconfigurable Computing | [link]() |
 | Nov 25 |                                           | Thanksgiving holiday                                                                            |          |
-| Dev 2  | Vinod Grover <br /> (NVIDIA)                |                                                                                                 |          |
+| Dev 2  | Da Zheng <br /> (AWS)                     | Large-scale GNN training with DGL                                                               |          |
