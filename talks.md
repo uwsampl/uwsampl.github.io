@@ -15,9 +15,26 @@ Join the following channels for updates and notifications:
 
 # Schedule
 
+## Winter 2022
+
+Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
+
+| Date   | Speaker | Title | Videos |
+|--------+---------+-------+--------|
+| Jan 6  |         | N/A   |        |
+| Jan 13 |         |       |        |
+| Jan 20 |         |       |        |
+| Jan 27 |         |       |        |
+| Feb 3  |         |       |        |
+| Feb 10 |         |       |        |
+| Feb 17 |         |       |        |
+| Feb 24 |         |       |        |
+| Mar 3  |         |       |        |
+| Mar 10 |         |       |        |
+
 ## Autumn 2021
 
-Every Thursday, 12:00pm to 13:00pm on Zoom. 
+Every Thursday, 12:00pm to 13:00pm on Zoom or CSE2 276. 
 
 | Date   | Speaker                                     | Title                                                                                           | Videos                                              |
 |--------+---------------------------------------------+-------------------------------------------------------------------------------------------------+-----------------------------------------------------|
