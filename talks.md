@@ -19,18 +19,18 @@ Join the following channels for updates and notifications:
 
 Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
 
-| Date   | Speaker                                      | Title                                                      | Videos |
-|--------+----------------------------------------------+------------------------------------------------------------+--------|
-| Jan 6  |                                              | N/A                                                        |        |
-| Jan 13 |                                              |                                                            |        |
-| Jan 20 |                                              |                                                            |        |
-| Jan 27 |                                              |                                                            |        |
-| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations |        |
-| Feb 10 |                                              |                                                            |        |
-| Feb 17 |                                              |                                                            |        |
-| Feb 24 |                                              |                                                            |        |
-| Mar 3  |                                              |                                                            |        |
-| Mar 10 |                                              |                                                            |        |
+| Date   | Speaker                                      | Title                                                            | Videos |
+|--------+----------------------------------------------+------------------------------------------------------------------+--------|
+| Jan 6  |                                              | N/A                                                              |        |
+| Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                        |        |
+| Jan 20 | Zihao Ye (UW) <br /> Ruihang Lai (SJTU)      | Overview of TIR and Sparse TIR project                           |        |
+| Jan 27 | Jian Weng <br /> (UCLA)                      | Synthesizing Programmable Accelerators: A Compiler's Perspective |        |
+| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations       |        |
+| Feb 10 |                                              |                                                                  |        |
+| Feb 17 |                                              |                                                                  |        |
+| Feb 24 |                                              |                                                                  |        |
+| Mar 3  |                                              |                                                                  |        |
+| Mar 10 |                                              |                                                                  |        |
 
 ## Autumn 2021
 
