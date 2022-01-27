@@ -19,18 +19,18 @@ Join the following channels for updates and notifications:
 
 Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
 
-| Date   | Speaker                                      | Title                                                                               | Videos |
-|--------+----------------------------------------------+-------------------------------------------------------------------------------------+--------|
-| Jan 6  |                                              | N/A                                                                                 |        |
-| Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                                           |        |
-| Jan 20 | Ruihang Lai (SJTU) <br /> Zihao Ye (UW)      | Overview of TIR and Sparse TIR project                                              |        |
-| Jan 27 | Jian Weng (UCLA)                             | Synthesizing Programmable Accelerators: A Compiler's Perspective                    |        |
-| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                          |        |
-| Feb 10 |                                              |                                                                                     |        |
-| Feb 17 | Tim Dettmers (UW)                            | TBD                                                                                 |        |
-| Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                 |        |
-| Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning |        |
-| Mar 10 | Zhijian Liu (MIT)                            | TBD                                                                                 |        |
+| Date   | Speaker                                      | Title                                                                               | Videos                                                      |
+|--------+----------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------|
+| Jan 6  |                                              | N/A                                                                                 |                                                             |
+| Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                                           |                                                             |
+| Jan 20 | Ruihang Lai (SJTU) <br /> Zihao Ye (UW)      | Overview of TIR and Sparse TIR project                                              | [TIR Overview](https://www.youtube.com/watch?v=jlMKaHepIuc) |
+| Jan 27 | Jian Weng (UCLA)                             | Synthesizing Programmable Accelerators: A Compiler's Perspective                    |                                                             |
+| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                          |                                                             |
+| Feb 10 |                                              |                                                                                     |                                                             |
+| Feb 17 | Tim Dettmers (UW)                            | TBD                                                                                 |                                                             |
+| Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                 |                                                             |
+| Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning |                                                             |
+| Mar 10 | Zhijian Liu (MIT)                            | TBD                                                                                 |                                                             |
 
 ## Autumn 2021
 
