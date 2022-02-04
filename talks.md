@@ -25,8 +25,8 @@ Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
 | Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                                           |                                                             |
 | Jan 20 | Ruihang Lai (SJTU) <br /> Zihao Ye (UW)      | Overview of TIR and Sparse TIR project                                              | [TIR Overview](https://www.youtube.com/watch?v=jlMKaHepIuc) |
 | Jan 27 | Jian Weng (UCLA)                             | Synthesizing Programmable Accelerators: A Compiler's Perspective                    | [link](https://www.youtube.com/watch?v=BknJWw-oCW0)         |
-| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                          |                                                             |
-| Feb 10 |                                              |                                                                                     |                                                             |
+| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                          | [link](https://www.youtube.com/watch?v=XfKLYV6X4FE)         |
+| Feb 10 |                                              | N/A                                                                                 |                                                             |
 | Feb 17 | Tim Dettmers (UW)                            | TBD                                                                                 |                                                             |
 | Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                 |                                                             |
 | Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning |                                                             |
