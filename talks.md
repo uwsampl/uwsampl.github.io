@@ -15,26 +15,34 @@ Join the following channels for updates and notifications:
 
 # Schedule
 
+## Spring 2022
+
+Time: TBD
+
+| Date              | Speaker                     | Title                                                                                                   | Videos |
+|-------------------+-----------------------------+---------------------------------------------------------------------------------------------------------+--------|
+| Apr 7 (tentative) | Saurabh Kulkarni(GraphCore) | Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms |        |
+
 ## Winter 2022
 
-Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
+Time: Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
 
-| Date   | Speaker                                      | Title                                                                               | Videos                                                      |
-|--------+----------------------------------------------+-------------------------------------------------------------------------------------+-------------------------------------------------------------|
-| Jan 6  |                                              | N/A                                                                                 |                                                             |
-| Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                                           |                                                             |
-| Jan 20 | Ruihang Lai (SJTU) <br /> Zihao Ye (UW)      | Overview of TIR and Sparse TIR project                                              | [TIR Overview](https://www.youtube.com/watch?v=jlMKaHepIuc) |
-| Jan 27 | Jian Weng (UCLA)                             | Synthesizing Programmable Accelerators: A Compiler's Perspective                    | [link](https://www.youtube.com/watch?v=BknJWw-oCW0)         |
-| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                          | [link](https://www.youtube.com/watch?v=XfKLYV6X4FE)         |
-| Feb 10 |                                              | N/A                                                                                 |                                                             |
-| Feb 17 | Tim Dettmers (UW)                            | TBD                                                                                 |                                                             |
-| Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                 |                                                             |
-| Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning |                                                             |
-| Mar 10 | Zhijian Liu (MIT)                            | TBD                                                                                 |                                                             |
+| Date   | Speaker                                      | Title                                                                                         | Videos                                                      |
+|--------+----------------------------------------------+-----------------------------------------------------------------------------------------------+-------------------------------------------------------------|
+| Jan 6  |                                              | N/A                                                                                           |                                                             |
+| Jan 13 | Andrew Liu (UW)                              | Overview of Relax Project                                                                     |                                                             |
+| Jan 20 | Ruihang Lai (SJTU) <br /> Zihao Ye (UW)      | Overview of TIR and Sparse TIR project                                                        | [TIR Overview](https://www.youtube.com/watch?v=jlMKaHepIuc) |
+| Jan 27 | Jian Weng (UCLA)                             | Synthesizing Programmable Accelerators: A Compiler's Perspective                              | [link](https://www.youtube.com/watch?v=BknJWw-oCW0)         |
+| Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                                    | [link](https://www.youtube.com/watch?v=XfKLYV6X4FE)         |
+| Feb 10 |                                              | N/A                                                                                           |                                                             |
+| Feb 17 | Tim Dettmers (UW)                            | Accessible and Scalable Transformers through 8-bit Matrix Multiplication and 8-bit Optimizers |                                                             |
+| Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                           |                                                             |
+| Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning           |                                                             |
+| Mar 10 | Zhijian Liu (MIT)                            | TBD                                                                                           |                                                             |
 
 ## Autumn 2021
 
-Every Thursday, 12:00pm to 13:00pm on Zoom or CSE2 276. 
+Time: Every Thursday, 12:00pm to 13:00pm on Zoom or CSE2 276. 
 
 | Date   | Speaker                                     | Title                                                                                           | Videos                                              |
 |--------+---------------------------------------------+-------------------------------------------------------------------------------------------------+-----------------------------------------------------|
