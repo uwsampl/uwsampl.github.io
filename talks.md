@@ -36,7 +36,7 @@ Time: Every Thursday, 11:30am to 12:30pm on Zoom or CSE2 274.
 | Feb 3  | Deepak Narayanan <br /> (Microsoft Research) | Resource-Efficient Execution of Deep Learning Computations                                    | [link](https://www.youtube.com/watch?v=XfKLYV6X4FE)         |
 | Feb 10 |                                              | N/A                                                                                           |                                                             |
 | Feb 17 | Tim Dettmers (UW)                            | Accessible and Scalable Transformers through 8-bit Matrix Multiplication and 8-bit Optimizers |                                                             |
-| Feb 24 | Pratik Fegade (CMU)                          | TBD                                                                                           |                                                             |
+| Feb 24 | Pratik Fegade (CMU)                          | Efficient Batching Techniques for Dynamic Deep Learning                                       |                                                             |
 | Mar 3  | Lianmin Zheng <br /> (UC Berkeley)           | Alpa: Automating Inter and Intra Operator Parallelism for Distributed Deep Learning           |                                                             |
 | Mar 10 | Zhijian Liu (MIT)                            | TBD                                                                                           |                                                             |
 
