@@ -19,6 +19,16 @@ Join the following channels for updates and notifications:
 
 Time: TBD
 
+[expand] haha
+what
+[/expand]
+
+<details>
+	<summary>Click to expand</summary>
+	Long content here
+	and here	
+</details>
+
 | Date   | Speaker                             | Title                                                                                                          | Videos |
 |--------+-------------------------------------+----------------------------------------------------------------------------------------------------------------+--------|
 | Apr 21 | Saurabh Kulkarni <br /> (GraphCore) | Exploiting Parallelism in Large Scale Deep Learning Model Training: <br /> From Chips to Systems to Algorithms |        |
