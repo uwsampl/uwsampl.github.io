@@ -25,7 +25,7 @@ title: SAMPL lunch Talks
         </br>
         <b>{{talk.title}}</b>
         </br>
-        <b>Speaker</b>: {{talk.speaker[0]}} ({{talk.speaker[1]}})
+        <b>Speaker</b>: <a href="{{talk.speaker[2]}}">{{talk.speaker[0]}}</a> ({{talk.speaker[1]}})
         </br>
         {% if talk.abstract %}
             <details>
@@ -51,7 +51,7 @@ title: SAMPL lunch Talks
         <div class="talk-entry-date">{{talk.date}}</div>
         <b>{{talk.title}}</b>
         </br>
-        <b>Speaker</b>: {{talk.speaker[0]}} ({{talk.speaker[1]}})
+        <b>Speaker</b>: <a href="{{talk.speaker[2]}}">{{talk.speaker[0]}}</a> ({{talk.speaker[1]}})
         </br>
         {% if talk.abstract %}
             <details>
