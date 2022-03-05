@@ -166,3 +166,19 @@ table {
 }
 td, th { text-align: left; padding: 8px; }
 tr { border: 1px solid #ddd; }
+
+/* */
+.talk-entry {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #333;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.talk-entry-date {
+    float: right;
+}

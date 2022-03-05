@@ -1,0 +1,101 @@
+# Spring 2022
+
+- title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
+  speaker: ["Saurabh Kulkarni", "GraphCore"]
+  date: "Apr 21, 2022"
+  location: "Bezos Seminar - Gates G04 (CSE 2)"
+  abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
+
+Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
+  bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzY5aDMwZHBpY2xnamVvYjE3MHNqOGRyM2NsajNlb2o1NmNzNjZkOW02aGhqZ2MxbWM4cmswc2o1ZWRpbjR0ajU1cGhuNmJqbmM1cG1ncWJlY3RxNnVyaGVjbGk3YSB6aHllQGNzLndhc2hpbmd0b24uZWR1&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+# Winter 2022
+
+- title: "Alpa: Automating Inter- and Intra- Operator Parallelism for Distributed Deep Learning"
+  speaker: ["Lianmin Zheng", "UC Berkeley"]
+  date: "Mar 3, 2022"
+  location: "CSE2 274"
+  recording: ['https://www.youtube.com/watch?v=g_E7UfpXusk', 'public']
+  abstract: "Alpa automates model-parallel training of large deep learning (DL) models by generating execution plans that unify data, operator, and pipeline parallelism. Existing model-parallel training systems either require users to manually create a parallelization plan or automatically generate one from a limited space of model parallelism configurations, which does not suffice to scale out complex DL models on distributed compute devices. Alpa distributes the training of large DL models by viewing parallelisms as two hierarchical levels: inter-operator and intra-operator parallelisms. Based on it, Alpa constructs a new hierarchical space for massive model-parallel execution plans. Alpa designs a number of compilation passes to automatically derive the optimal parallel execution plan in each independent parallelism level and implements an efficient runtime to orchestrate the two-level parallel execution on distributed compute devices. Our evaluation shows Alpa generates parallelization plans that match or outperform hand-tuned model-parallel training systems even on models they are designed for. Unlike specialized systems, Alpa also generalizes to models with heterogeneous architectures and models without manually-designed plans."
+  bio: "Lianmin is a third-year Ph.D. student in the EECS department at UC Berkeley, advised by Ion Stoica and Joseph E. Gonzalez. His research interests lie in the intersection of machine learning and programming systems, especially domain-specific compilers for accelerated and scalable deep learning."
+
+- title: "Efficient Batching Techniques for Dynamic Deep Learning"
+  speaker: ["Pratik Fegade", "CMU"]
+  date: "Feb 24, 2022"
+  location: "CSE2 274"
+  recording: ['https://drive.google.com/file/d/1-k_mWkGq9C7yUJDbBdWtW_aRRS-i8AKY/view?usp=sharing', 'internal']
+  bio: "Pratik is a PhD student in the Computer Science Department at CMU and he works with Prof. Todd Mowry, Prof. Phil Gibbons and Prof. Tianqi Chen. His current research focus is on building better compilation and execution stacks for handling dynamism in deep learning models. In the past, He has worked on building compiler analysis techniques that understand and optimize programs written in general-purpose programming languages at semantically higher levels than is currently possible."
+
+- title: "Accessible and Scalable Transformers through 8-bit Matrix Multiplication and 8-bit Optimizers"
+  speaker: ["Tim Dettmers", "UW"]
+  date: "Feb 17, 2022"
+  location: "CSE2 274"
+  recording: ['https://drive.google.com/file/d/1AA4QlLlI_mTN1M5ulydcYKKt1yt7SIWO/view?usp=sharing', 'internal']
+  bio: "Tim Dettmers is a PhD student at the University of Washington advised by Luke Zettlemoyer working on representation learning, and neuro-inspired and hardware optimized deep learning. Previously he interned at the UCL Machine Reading Group where he was advised by Sebastian Riedel working on information retrieval and link prediction in knowledge graphs. He did his master in computer science at the University of Lugano."
+
+- title: "Resource-Efficient Execution of Deep Learning Computations"
+  speaker: ["Deepak Narayanan", "Microsoft Research"]
+  date: "Feb 3, 2022"
+  location: "CSE2 274"
+  recording: ['https://www.youtube.com/watch?v=XfKLYV6X4FE', 'public']
+  abstract: "Deep Learning models have enabled state-of-the-art results across a broad range of applications; however, training these models is extremely time- and resource-intensive, taking weeks on clusters with thousands of expensive accelerators in the extreme case. In this talk, I will describe two ideas that help improve the resource efficiency of model training.
+
+In the first half of the talk, I will discuss how pipelining can be used to accelerate distributed training. Pipeline parallelism facilitates model training with lower communication overhead than previous methods while still ensuring high compute resource utilization. Pipeline parallelism also enables the efficient training of large models that do not fit on a single worker; for example, we used pipeline parallelism at Nvidia to efficiently scale training to language models with a trillion parameters on 3000+ GPUs.
+
+In the second half of this talk, I will describe how resources in a shared cluster with heterogeneous compute resources (e.g., different types of hardware accelerators) should be partitioned among different users to optimize objectives specified over one or more training jobs. Heterogeneity-aware scheduling can improve various scheduling objectives, such as average completion time, makespan, or cloud computing resource cost, by up to 3.5x."
+  bio: "Deepak is a Senior Researcher in the Systems group at Microsoft Research Redmond. His broad research interests include distributed systems and cloud computing. In particular, he is interested in the Systems problems associated with learning and deploying machine learning models at scale. He graduated from Stanford with a Ph.D. in Computer Science in September 2021, where he was advised by Prof. Matei Zaharia."
+
+- title: "Synthesizing Programmable Accelerators: A Compiler’s Perspective"
+  speaker: ["Jian Weng", "UCLA"]
+  date: "Jan 27, 2022"
+  location: "CSE2 274"
+  recording: ['https://www.youtube.com/watch?v=BknJWw-oCW0', 'public']
+  abstract: "Because of the waning benefit of transistor scaling, specialized accelerators emerge, and already achieved big success in both industries and academics. However, all these accelerators require intensive human effort to design the hardware itself as well as the ISA and software stack, which can hardly justify designing a specialized accelerator for each domain of interest. Our work makes a very first attempt to automate this process. In this talk, I will present an automated, and program-behavior-centric paradigm for full-stack programmable accelerator design."
+  bio: "Jian is a 5th-year Ph.D. Candidate from UCLA under the guidance of Prof. Tony Nowatzki. His research interests mainly lie in designing and analyzing specialized accelerators and their associated compilation technologies."
+
+- title: "Overview of Sparse TIR project"
+  speaker: ["Zihao Ye", "UW"]
+  date: "Jan 20, 2022"
+  location: "CSE2 274"
+  recording: ['https://drive.google.com/file/d/1-Rh8d2qZSGNZbRGubY2_Hf5yUlMybKm_/view?usp=sharing', 'internal']
+
+- title: "Overview of TIR project" 
+  speaker: ["Ruihang Lai", "SJTU"]
+  date: "Jan 20, 2022"
+  location: "CSE2 274"
+  recording: ['https://www.youtube.com/watch?v=jlMKaHepIuc', 'public']
+
+- title: "Overview of Relax Project"
+  speaker: ["Andrew Liu", "UW"]
+  date: "Jan 13, 2022"
+  location: "CSE2 274"
+
+# Autumn 2021
+
+- title: "Large-scale GNN training with DGL"
+  speaker: ["Da Zheng", "AWS AI"]
+  location: "CSE2 276"
+  date: "Dec 2, 2021"
+  recording: ['https://www.youtube.com/watch?v=4AhrQcoIZJ0', 'public']
+  abstract: "Graph neural networks (GNN) have shown great success in learning from graph-structured data. They are widely used in various applications, such as recommendation, fraud detection, and search. In these domains, the graphs are typically large, containing hundreds of millions of nodes and several billions of edges. To scale graph neural network training on large graphs, we adopt hybrid CPU/GPU mini-batch training, in which we store graph data and sample nodes and their neighbors in CPU, and perform mini-batch computation in GPUs. In this talk, I will discuss the optimizations for GNN mini-batch training in two aspects. First, I will discuss our effort of scaling GNN training to a cluster of CPU and GPUs. We develop multiple optimizations to address the challenges in distributed hybrid CPU/GPU training (reduce data movement and balance the load in mini-batch computation). With these optimizations, we show close to good speedup without compromising model accuracy and train GNN models on a graph with 100M nodes with less than 1 minute in a cluster of 32 GPUs. In the second part, I will discuss a new neighbor sampling algorithm called global neighbor sampling (GNS) to reduce the data copy from CPU to GPUs. This algorithm efficiently samples neighbor nodes that are already stored in a GPU cache to reduce data copy from CPU to GPU. We show that our neighbor sampling algorithm can achieve state-of-the-art model performance while speeding the mini-batch training by a factor of 2 to 14 compared with the previous state-of-the-art algorithms."
+  bio: "Da Zheng is a senior applied scientist at AWS AI, where he leads the project Deep Graph Library and DGL-KE for graph neural networks and knowledge graphs. His research interest covers a wide range of areas, including high-performance computing, large-scale data analysis systems, data mining and machine learning. He got a PhD from the department of computer science at Johns Hopkins University. During his PhD, he worked on FlashGraph and FlashR, frameworks for large-scale graph analysis and data analysis on solid-state drives (SSDs)."
+
+- title: "Decoupling Algorithm from Hardware Customizations for Software-Defined Reconfigurable Computing"
+  speaker: ["Yi-Hsiang (Sean) Lai", "Cornell"]
+  date: "Nov 18, 2021"
+  location: "CSE2 276"
+  recording: ['https://www.youtube.com/watch?v=6F7cQN5pmbs', 'public']
+  abstract: "With the pursuit of improving compute performance under strict power constraints, there is an increasing need for deploying applications to heterogeneous hardware architectures with spatial accelerators such as FPGAs. However, although these heterogeneous computing platforms are becoming widely available, they are very difficult to program especially with FPGAs. As a result, the use of such platforms has been limited to a small subset of programmers with specialized hardware knowledge. In this talk, I will first present SuSy, a programming framework composed of a domain-specific language (DSL) and a compilation flow that enables programmers to productively build high-performance systolic arrays on FPGAs. With SuSy, programmers express the design functionality in the form of uniform recurrence equations (UREs). The URE description in SuSy is followed by a set of decoupled spatial mapping primitives that specify how to map the equations to a spatial architecture. More concretely, programmers can apply space-time transformations and several other memory and I/O optimizations to build a highly efficient systolic architecture productively.
+
+After that, I will present HeteroCL, an open-source programming infrastructure composed of a Python-based domain-specific language and an FPGA-targeted compilation flow. Similar to SuSy, HeteroCL cleanly decouples algorithm specifications from three important types of hardware customization in compute, data types, and memory architectures. In addition, HeteroCL produces highly efficient hardware implementations for a variety of popular workloads by targeting spatial architecture templates such as systolic arrays and stencil with dataflow architectures."
+  bio: "Yi-Hsiang Lai is currently a 6th-year Ph.D. student at Cornell advised by Prof. Zhiru Zhang. He received both his Master's and Bachelor's degrees in Electrical Engineering from National Taiwan University. His research focuses on high-level synthesis for FPGAs, programming models, and compilers."
+
+- title: "Autotuning Production Machine Learning Compilers"
+  speaker: ["Mangpo Phothilimthana", "Google Research"]
+  date: "Nov 4, 2021"
+  location: "CSE2 276"
+  recording: ['https://www.youtube.com/watch?v=esD_zvAf49I', 'public']
+  abstract: "Search-based techniques have been demonstrated effective in solving complex optimization problems that arise in domain-specific compilers for machine learning (ML). Unfortunately, deploying such techniques in production compilers is impeded by several limitations. In this talk, I will present an autotuner for production ML compilers that can tune both graph-level and subgraph-level optimizations at multiple compilation stages. The autotuner applies a flexible search methodology that defines a search formulation for joint optimizations by accurately modeling the interactions between different compiler passes. The autotuner tunes tensor layouts, operator fusion decisions, tile sizes, and code generation parameters in XLA, a production ML compiler, using various search strategies. We demonstrate how to incorporate machine learning techniques such as a learned cost model and various learning-based search strategies to reduce autotuning time. Our learned cost model has high accuracy and outperforms a heavily-optimized analytical performance model. In an evaluation across 150 ML training and inference models on Tensor Processing Units (TPUs), the autotuner offers up to 2.4x and an average 5% runtime speedup over the heavily-optimized XLA compiler. The autotuner has been deployed to automatically tune the most heavily-used production models in Google’s fleet everyday."
+  bio: "Mangpo is a research scientist at Google Brain, where she leads Machine Learning for Machine Learning Compilers effort (one of Google Brain moonshots in 2020). Her research interests include compilers, machine learning for systems, program synthesis, and efficient computing. Mangpo completed her PhD in Computer Science at UC Berkeley. Her dissertation focuses on synthesis-aided compilation and programming models for emerging architectures, ranging from an ultra-low-power processor to a programmable network card."
+
