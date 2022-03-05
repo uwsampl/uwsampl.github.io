@@ -101,6 +101,11 @@ sslyu:
     role: grad
     image: /img/people/sslyu.jpg
 
+scott:
+    display_name: "Scott Davidson"
+    webpage: "https://github.com/stdavids"
+    role: grad
+
 patelp1:
     display_name: "Pratyush Patel"
     webpage: "https://homes.cs.washington.edu/~patelp1/"
@@ -129,7 +134,7 @@ zhye:
     display_name: "Zihao Ye"
     webpage: "https://homes.cs.washington.edu/~zhye"
     role: grad
-    image: /img/people/zhye.jpg
+    image: /img/people/zhye.png
 
 hwpeng:
     display_name: "Huwan Peng"
@@ -241,6 +246,12 @@ mikehe:
     role: ugrad
     webpage: "https://ad1024.space/about"
     image: /img/people/mikehe.jpg
+
+naisan:
+    display_name: "Naisan Noorassa"
+    role: ugrad
+    webpage: "https://github.com/noorassan"
+    image: /img/people/naisan.png
 
 # Undergrad Alums
 # Alphabetical order

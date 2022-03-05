@@ -10,6 +10,7 @@ people:
   - gussmith
   - cyulin
   - zhye
+  - naisan
   - luisceze
 
 layout: project
