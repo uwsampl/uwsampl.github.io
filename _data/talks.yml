@@ -2,8 +2,8 @@
 
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
   speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
-  date: "Apr 21, 2022"
-  location: "Bezos Seminar - Gates G04 (CSE 2)"
+  date: "May 16th, 2022, 8:30 am - 10:20 am PT"
+  location: "TBD (offered together w/ CSE 470)"
   abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
 
 Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
