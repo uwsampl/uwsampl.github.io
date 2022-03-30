@@ -1,14 +1,18 @@
 # Spring 2022
 
+- title: "TBD"
+  speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
+  date: "April 28th, 2022, 11:30 am -12:15 pm PT"
+
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
   speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
   date: "May 16th, 2022, 8:30 am - 10:20 am PT"
-  location: "TBD (offered together w/ CSE 470)"
+  location: '<a href="https://www.washington.edu/maps/#!/mor">MOR</a> 220'
   abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
 
 Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
   bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzY5aDMwZHBpY2xnamVvYjE3MHNqOGRyM2NsajNlb2o1NmNzNjZkOW02aGhqZ2MxbWM4cmswc2o1ZWRpbjR0ajU1cGhuNmJqbmM1cG1ncWJlY3RxNnVyaGVjbGk3YSB6aHllQGNzLndhc2hpbmd0b24uZWR1&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWpjN2kwYjU2ZTRkNHVmaTJhbjR1aG0yZGkgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 # Winter 2022
 
