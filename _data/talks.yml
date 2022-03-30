@@ -3,6 +3,7 @@
 - title: "TBD"
   speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
   date: "April 28th, 2022, 11:30 am -12:15 pm PT"
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2pucG9oYzd1azB2bGJtNmp0a2c3M3NkOTcgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
   speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
