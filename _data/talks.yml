@@ -1,19 +1,24 @@
 # Spring 2022
 
+- title: "TBD"
+  speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
+  date: "April 28th, 2022, 11:30 am -12:15 pm PT"
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2pucG9oYzd1azB2bGJtNmp0a2c3M3NkOTcgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
-  speaker: ["Saurabh Kulkarni", "GraphCore"]
-  date: "Apr 21, 2022"
-  location: "Bezos Seminar - Gates G04 (CSE 2)"
+  speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
+  date: "May 16th, 2022, 8:30 am - 10:20 am PT"
+  location: '<a href="https://www.washington.edu/maps/#!/mor">MOR</a> 220'
   abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
 
 Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
   bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzY5aDMwZHBpY2xnamVvYjE3MHNqOGRyM2NsajNlb2o1NmNzNjZkOW02aGhqZ2MxbWM4cmswc2o1ZWRpbjR0ajU1cGhuNmJqbmM1cG1ncWJlY3RxNnVyaGVjbGk3YSB6aHllQGNzLndhc2hpbmd0b24uZWR1&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWpjN2kwYjU2ZTRkNHVmaTJhbjR1aG0yZGkgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 # Winter 2022
 
 - title: "Alpa: Automating Inter- and Intra- Operator Parallelism for Distributed Deep Learning"
-  speaker: ["Lianmin Zheng", "UC Berkeley"]
+  speaker: ["Lianmin Zheng", "UC Berkeley", "http://lmzheng.net/"]
   date: "Mar 3, 2022"
   location: "CSE2 274"
   recording: ['https://www.youtube.com/watch?v=g_E7UfpXusk', 'public']
@@ -21,21 +26,21 @@ Attend this session to learn about how Graphcore aims to address scale challenge
   bio: "Lianmin is a third-year Ph.D. student in the EECS department at UC Berkeley, advised by Ion Stoica and Joseph E. Gonzalez. His research interests lie in the intersection of machine learning and programming systems, especially domain-specific compilers for accelerated and scalable deep learning."
 
 - title: "Efficient Batching Techniques for Dynamic Deep Learning"
-  speaker: ["Pratik Fegade", "CMU"]
+  speaker: ["Pratik Fegade", "CMU", "https://pratikfegade.github.io/"]
   date: "Feb 24, 2022"
   location: "CSE2 274"
   recording: ['https://drive.google.com/file/d/1-k_mWkGq9C7yUJDbBdWtW_aRRS-i8AKY/view?usp=sharing', 'internal']
   bio: "Pratik is a PhD student in the Computer Science Department at CMU and he works with Prof. Todd Mowry, Prof. Phil Gibbons and Prof. Tianqi Chen. His current research focus is on building better compilation and execution stacks for handling dynamism in deep learning models. In the past, He has worked on building compiler analysis techniques that understand and optimize programs written in general-purpose programming languages at semantically higher levels than is currently possible."
 
 - title: "Accessible and Scalable Transformers through 8-bit Matrix Multiplication and 8-bit Optimizers"
-  speaker: ["Tim Dettmers", "UW"]
+  speaker: ["Tim Dettmers", "UW", "https://timdettmers.com/"]
   date: "Feb 17, 2022"
   location: "CSE2 274"
   recording: ['https://drive.google.com/file/d/1AA4QlLlI_mTN1M5ulydcYKKt1yt7SIWO/view?usp=sharing', 'internal']
   bio: "Tim Dettmers is a PhD student at the University of Washington advised by Luke Zettlemoyer working on representation learning, and neuro-inspired and hardware optimized deep learning. Previously he interned at the UCL Machine Reading Group where he was advised by Sebastian Riedel working on information retrieval and link prediction in knowledge graphs. He did his master in computer science at the University of Lugano."
 
 - title: "Resource-Efficient Execution of Deep Learning Computations"
-  speaker: ["Deepak Narayanan", "Microsoft Research"]
+  speaker: ["Deepak Narayanan", "Microsoft Research", "https://deepakn94.github.io/"]
   date: "Feb 3, 2022"
   location: "CSE2 274"
   recording: ['https://www.youtube.com/watch?v=XfKLYV6X4FE', 'public']
@@ -47,7 +52,7 @@ In the second half of this talk, I will describe how resources in a shared clust
   bio: "Deepak is a Senior Researcher in the Systems group at Microsoft Research Redmond. His broad research interests include distributed systems and cloud computing. In particular, he is interested in the Systems problems associated with learning and deploying machine learning models at scale. He graduated from Stanford with a Ph.D. in Computer Science in September 2021, where he was advised by Prof. Matei Zaharia."
 
 - title: "Synthesizing Programmable Accelerators: A Compiler’s Perspective"
-  speaker: ["Jian Weng", "UCLA"]
+  speaker: ["Jian Weng", "UCLA", "http://were.github.io/"]
   date: "Jan 27, 2022"
   location: "CSE2 274"
   recording: ['https://www.youtube.com/watch?v=BknJWw-oCW0', 'public']
@@ -55,26 +60,26 @@ In the second half of this talk, I will describe how resources in a shared clust
   bio: "Jian is a 5th-year Ph.D. Candidate from UCLA under the guidance of Prof. Tony Nowatzki. His research interests mainly lie in designing and analyzing specialized accelerators and their associated compilation technologies."
 
 - title: "Overview of Sparse TIR project"
-  speaker: ["Zihao Ye", "UW"]
+  speaker: ["Zihao Ye", "UW", "https://homes.cs.washington.edu/~zhye/"]
   date: "Jan 20, 2022"
   location: "CSE2 274"
   recording: ['https://drive.google.com/file/d/1-Rh8d2qZSGNZbRGubY2_Hf5yUlMybKm_/view?usp=sharing', 'internal']
 
 - title: "Overview of TIR project" 
-  speaker: ["Ruihang Lai", "SJTU"]
+  speaker: ["Ruihang Lai", "SJTU", "https://github.com/MasterJH5574"]
   date: "Jan 20, 2022"
   location: "CSE2 274"
   recording: ['https://www.youtube.com/watch?v=jlMKaHepIuc', 'public']
 
 - title: "Overview of Relax Project"
-  speaker: ["Andrew Liu", "UW"]
+  speaker: ["Andrew Liu", "UW", "https://github.com/hypercubestart"]
   date: "Jan 13, 2022"
   location: "CSE2 274"
 
 # Autumn 2021
 
 - title: "Large-scale GNN training with DGL"
-  speaker: ["Da Zheng", "AWS AI"]
+  speaker: ["Da Zheng", "AWS AI", "https://zheng-da.github.io/"]
   location: "CSE2 276"
   date: "Dec 2, 2021"
   recording: ['https://www.youtube.com/watch?v=4AhrQcoIZJ0', 'public']
@@ -82,7 +87,7 @@ In the second half of this talk, I will describe how resources in a shared clust
   bio: "Da Zheng is a senior applied scientist at AWS AI, where he leads the project Deep Graph Library and DGL-KE for graph neural networks and knowledge graphs. His research interest covers a wide range of areas, including high-performance computing, large-scale data analysis systems, data mining and machine learning. He got a PhD from the department of computer science at Johns Hopkins University. During his PhD, he worked on FlashGraph and FlashR, frameworks for large-scale graph analysis and data analysis on solid-state drives (SSDs)."
 
 - title: "Decoupling Algorithm from Hardware Customizations for Software-Defined Reconfigurable Computing"
-  speaker: ["Yi-Hsiang (Sean) Lai", "Cornell"]
+  speaker: ["Yi-Hsiang (Sean) Lai", "Cornell", "https://www.csl.cornell.edu/~yl2666/"]
   date: "Nov 18, 2021"
   location: "CSE2 276"
   recording: ['https://www.youtube.com/watch?v=6F7cQN5pmbs', 'public']
@@ -92,7 +97,7 @@ After that, I will present HeteroCL, an open-source programming infrastructure c
   bio: "Yi-Hsiang Lai is currently a 6th-year Ph.D. student at Cornell advised by Prof. Zhiru Zhang. He received both his Master's and Bachelor's degrees in Electrical Engineering from National Taiwan University. His research focuses on high-level synthesis for FPGAs, programming models, and compilers."
 
 - title: "Autotuning Production Machine Learning Compilers"
-  speaker: ["Mangpo Phothilimthana", "Google Research"]
+  speaker: ["Mangpo Phothilimthana", "Google Research", "https://mangpo.net/"]
   date: "Nov 4, 2021"
   location: "CSE2 276"
   recording: ['https://www.youtube.com/watch?v=esD_zvAf49I', 'public']

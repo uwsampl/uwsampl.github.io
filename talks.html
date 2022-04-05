@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SAMPL lunch Talks
+title: SAMPL Lunch Talks
 ---
 
 <h1 id="links">Links</h1>
@@ -8,7 +8,7 @@ title: SAMPL lunch Talks
 <p>Join the following channels for updates and notifications:</p>
 
 <ul>
-  <li><a href="https://mailman.cs.washington.edu/mailman/admin/sampl">SAMPL Mailing List (internal)</a></li>
+  <li><a href="https://mailman.cs.washington.edu/mailman/listinfo/sampl"> SAMPL Mailing List (internal)</a></li>
   <li><a href="https://uw-cse.slack.com/archives/C9DE9ES9Z">SAMPL Slack Channel (internal)</a></li>
   <li><a href="https://calendar.google.com/calendar/embed?src=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles">SAMPL Calendar</a></li>
   <li><a href="https://www.youtube.com/channel/UCYZ98EiUAI-KkBSyuml155Q">SAMPL Youtube Channel</a></li>
@@ -25,7 +25,7 @@ title: SAMPL lunch Talks
         </br>
         <b>{{talk.title}}</b>
         </br>
-        <b>Speaker</b>: {{talk.speaker[0]}} ({{talk.speaker[1]}})
+        <b>Speaker</b>: <a href="{{talk.speaker[2]}}">{{talk.speaker[0]}}</a> ({{talk.speaker[1]}})
         </br>
         {% if talk.abstract %}
             <details>
@@ -51,7 +51,7 @@ title: SAMPL lunch Talks
         <div class="talk-entry-date">{{talk.date}}</div>
         <b>{{talk.title}}</b>
         </br>
-        <b>Speaker</b>: {{talk.speaker[0]}} ({{talk.speaker[1]}})
+        <b>Speaker</b>: <a href="{{talk.speaker[2]}}">{{talk.speaker[0]}}</a> ({{talk.speaker[1]}})
         </br>
         {% if talk.abstract %}
             <details>
