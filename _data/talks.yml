@@ -3,17 +3,22 @@
 - title: "TBD"
   speaker: ["Steven Lyubomirsky", "UW", "https://homes.cs.washington.edu/~sslyu/"]
   date: "April 14th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MWszZHBtYWE5MWJuaGhvZ2hocDB1dDB2ZDMgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "TBD"
   speaker: ["Amanda Liu", "MIT", "https://www.csail.mit.edu/person/amanda-liu"]
   date: "April 21th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA0MjFUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "TBD"
   speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
   date: "April 28th, 2022, 11:30 am - 12:15 pm PT"
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N2pucG9oYzd1azB2bGJtNmp0a2c3M3NkOTcgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA0MjhUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "TBD"
+  speaker: ["Jiawei Liu", "UIUC", "https://jw-liu.xyz/"]
+  date: "May 12th, 2022, 11:30 am - 12:30 pm PT"
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA1MTJUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
   speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
@@ -23,7 +28,7 @@
 
 Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
   bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NWpjN2kwYjU2ZTRkNHVmaTJhbjR1aG0yZGkgemh5ZUBjcy53YXNoaW5ndG9uLmVkdQ&amp;tmsrc=zhye%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmUyOWxzcW1jNWl1dDczMW5tZXM0aXM2bDUgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 # Winter 2022
 
