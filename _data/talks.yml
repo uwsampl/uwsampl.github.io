@@ -1,24 +1,45 @@
 # Spring 2022
 
-- title: "TBD"
+- title: "Compiler and Runtime Techniques for Optimizing Deep Learning Applications"
   speaker: ["Steven Lyubomirsky", "UW", "https://homes.cs.washington.edu/~sslyu/"]
-  date: "April 14th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MWszZHBtYWE5MWJuaGhvZ2hocDB1dDB2ZDMgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  date: "April 14th"
+  recording: ['https://www.youtube.com/watch?v=Pf5iWmSAADA', 'public']
+  abstract: "As the scaling and performance demands for deep learning systems have grown, system designers have struggled to incorporate innovations at opposite ends of the system stack: more varied and complex deep learning models and specialized hardware accelerators. New models that use data structures and dynamic control flow to address new learning problems cannot immediately benefit from previous system-level optimizations, which are defined over static dataflow graphs. Meanwhile, many novel hardware accelerators for accelerating common deep learning operations present unusual computing models and often require manual modification of applications to use, demanding expertise in both the deep learning domain and in hardware. The challenges in adding support for accelerators in existing compiler stacks slow development cycles and constrain deep learning systems' capabilities and efficiency.
 
-- title: "TBD"
+Following earlier work on the Relay IR for the TVM framework, this dissertation demonstrates that system design problems in the deep learning domain can be approached by formalizing deep learning models as programs broadly (rather than assuming a more specific structure like a graph) and applying traditional compiler engineering techniques, simplifying various optimizations and transformations. In particular, this work addresses the use of runtime systems to support optimizations for dynamic deep learning models and on systematically supporting accelerators through the use of a formal software/hardware interface. Traditional deep learning model optimizations have been conceived as transformations on static dataflow graphs, but can be adapted to perform similar reasoning dynamically (and hence make no assumptions about control flow) by performing similar reasoning in a runtime system, guided by heuristics that depend on dynamically gathered information. This work details the specific example of Dynamic Tensor Rematerialization, which is an online approach to the problem of gradient checkpointing (recomputing intermediate activations instead of storing them to reduce the memory required for training) that achieves results comparable to optimal static techniques but generalizes to arbitrarily dynamic models. In addressing the problem of supporting accelerators in deep learning compiler stacks, this work demonstrates that a formal software/hardware interface enables traditional compiler techniques like instruction selection to be adapted for accelerators. Namely, this work presents a methodology for implementing a compiler stack with extensible support for accelerators that uses term rewriting to automatically discover opportunities to apply accelerator operations and lays the foundations for extending formal verification to entire compilation stacks with accelerator support."
+  note: "Steven's PhD Defense talk, Congrats!"
+
+- title: "Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites"
   speaker: ["Amanda Liu", "MIT", "https://www.csail.mit.edu/person/amanda-liu"]
-  date: "April 21th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA0MjFUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  date: "April 21th"
+  abstract: "We present a lightweight Coq framework for optimizing tensor
+kernels written in a pure, functional array language. Optimizations
+rely on user scheduling using a series of verified,
+semantics-preserving rewrites. Unusually for compilation targeting
+imperative code with arrays and nested loops, all rewrites are
+source-to-source within a purely functional language. Our language
+comprises a set of core constructs for expressing high-level
+computation detail and a set of what we call reshape operators, which
+can be derived from core constructs but trigger low-level decisions
+about storage patterns and ordering. We demonstrate that not only is
+this system capable of deriving the optimizations of existing
+state-of-the-art languages like Halide and generating comparably
+performant code, it is also able to schedule a family of useful
+program transformations beyond what is reachable in Halide."
+  bio: "Amanda is a second-year PhD student working with Prof. Adam Chlipala
+and Prof. Jonathan Ragan-Kelley. Her interests are using formal methods, programming
+languages, and types to develop verified, principled methods for writing
+high-performance systems."
 
 - title: "TBD"
   speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
   date: "April 28th, 2022, 11:30 am - 12:15 pm PT"
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA0MjhUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "TBD"
   speaker: ["Jiawei Liu", "UIUC", "https://jw-liu.xyz/"]
   date: "May 12th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDRsdms5dTlkcXZuYnBiaW1kdXExajdwYjRfMjAyMjA1MTJUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
   speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
