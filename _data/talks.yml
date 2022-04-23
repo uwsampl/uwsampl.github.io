@@ -2,7 +2,7 @@
 
 - title: "Compiler and Runtime Techniques for Optimizing Deep Learning Applications"
   speaker: ["Steven Lyubomirsky", "UW", "https://homes.cs.washington.edu/~sslyu/"]
-  date: "April 14th"
+  date: "Apr 14th, 2022"
   recording: ['https://www.youtube.com/watch?v=Pf5iWmSAADA', 'public']
   abstract: "As the scaling and performance demands for deep learning systems have grown, system designers have struggled to incorporate innovations at opposite ends of the system stack: more varied and complex deep learning models and specialized hardware accelerators. New models that use data structures and dynamic control flow to address new learning problems cannot immediately benefit from previous system-level optimizations, which are defined over static dataflow graphs. Meanwhile, many novel hardware accelerators for accelerating common deep learning operations present unusual computing models and often require manual modification of applications to use, demanding expertise in both the deep learning domain and in hardware. The challenges in adding support for accelerators in existing compiler stacks slow development cycles and constrain deep learning systems' capabilities and efficiency.
 
@@ -11,7 +11,8 @@ Following earlier work on the Relay IR for the TVM framework, this dissertation 
 
 - title: "Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites"
   speaker: ["Amanda Liu", "MIT", "https://www.csail.mit.edu/person/amanda-liu"]
-  date: "April 21th"
+  date: "Apr 21th, 2022"
+  recording: ['https://www.youtube.com/watch?v=AUe9lzhBOgc', 'public']
   abstract: "We present a lightweight Coq framework for optimizing tensor
 kernels written in a pure, functional array language. Optimizations
 rely on user scheduling using a series of verified,
@@ -33,7 +34,7 @@ high-performance systems."
 
 - title: "TBD"
   speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
-  date: "April 28th, 2022, 11:30 am - 12:15 pm PT"
+  date: "Apr 28th, 2022, 11:30 am - 12:15 pm PT"
   calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "TBD"
