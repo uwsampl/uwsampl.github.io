@@ -86,6 +86,12 @@ amar:
     role: collab
     image: /img/people/amar.jpg
 
+ruihang:
+    display_name: Ruihang Lai
+    webpage: "https://github.com/masterJH5574"
+    role: collab
+    image: https://avatars.githubusercontent.com/u/45167100?v=4
+
 # Grads
 # Alphabetical order
 
@@ -252,6 +258,12 @@ naisan:
     role: ugrad
     webpage: "https://github.com/noorassan"
     image: /img/people/naisan.png
+
+sidlak:
+    display_name: Sidharth Lakshmanan
+    role: ugrad
+    webpage: "https://www.linkedin.com/in/sidharth-lakshmanan-30527a168"
+    image: /img/people/sidlak.jpg
 
 # Undergrad Alums
 # Alphabetical order

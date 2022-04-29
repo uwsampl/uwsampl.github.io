@@ -1,13 +1,37 @@
 # Spring 2022
 
-- title: "Compiler and Runtime Techniques for Optimizing Deep Learning Applications"
-  speaker: ["Steven Lyubomirsky", "UW", "https://homes.cs.washington.edu/~sslyu/"]
-  date: "Apr 14th, 2022"
-  recording: ['https://www.youtube.com/watch?v=Pf5iWmSAADA', 'public']
-  abstract: "As the scaling and performance demands for deep learning systems have grown, system designers have struggled to incorporate innovations at opposite ends of the system stack: more varied and complex deep learning models and specialized hardware accelerators. New models that use data structures and dynamic control flow to address new learning problems cannot immediately benefit from previous system-level optimizations, which are defined over static dataflow graphs. Meanwhile, many novel hardware accelerators for accelerating common deep learning operations present unusual computing models and often require manual modification of applications to use, demanding expertise in both the deep learning domain and in hardware. The challenges in adding support for accelerators in existing compiler stacks slow development cycles and constrain deep learning systems' capabilities and efficiency.
+- title: "Programming Abstractions and Efficient Compilation Techniques for Modern FPGAs"
+  speaker: ["Luis Vega", "UW", "https://homes.cs.washington.edu/~vegaluis/"]
+  date: "May 5th, 2022, 12:00 pm - 1:30 pm PT"
+  location: ""
+  abstract: "Modern field-programmable gate arrays (FPGAs) have recently powered high-profile efficiency gains in systems from datacenters to embedded devices by offering ensembles of heterogeneous, reconfigurable hardware units. Programming stacks for FPGAs, however, are stuck in the past— they are based on traditional hardware languages, which were appropriate when FPGAs were simple, homogeneous fabrics of basic programmable lookup tables. Nowadays, FPGAs are highly heterogeneous architectures that support a wide variety of compute operations such as scalar, vector, fused, and floating-point arithmetic together with different kinds of programmable memories. Unfortunately, the behavioral semantics available in hardware languages today cannot effectively capture these architectural advances, resulting in inefficient programs that are missing all the benefits of specialization. An example of this abstraction gap is that vector operations cannot be described behaviorally for targeting vector hardware (SIMD) available in modern FPGAs.
 
-Following earlier work on the Relay IR for the TVM framework, this dissertation demonstrates that system design problems in the deep learning domain can be approached by formalizing deep learning models as programs broadly (rather than assuming a more specific structure like a graph) and applying traditional compiler engineering techniques, simplifying various optimizations and transformations. In particular, this work addresses the use of runtime systems to support optimizations for dynamic deep learning models and on systematically supporting accelerators through the use of a formal software/hardware interface. Traditional deep learning model optimizations have been conceived as transformations on static dataflow graphs, but can be adapted to perform similar reasoning dynamically (and hence make no assumptions about control flow) by performing similar reasoning in a runtime system, guided by heuristics that depend on dynamically gathered information. This work details the specific example of Dynamic Tensor Rematerialization, which is an online approach to the problem of gradient checkpointing (recomputing intermediate activations instead of storing them to reduce the memory required for training) that achieves results comparable to optimal static techniques but generalizes to arbitrarily dynamic models. In addressing the problem of supporting accelerators in deep learning compiler stacks, this work demonstrates that a formal software/hardware interface enables traditional compiler techniques like instruction selection to be adapted for accelerators. Namely, this work presents a methodology for implementing a compiler stack with extensible support for accelerators that uses term rewriting to automatically discover opportunities to apply accelerator operations and lays the foundations for extending formal verification to entire compilation stacks with accelerator support."
-  note: "Steven's PhD Defense talk, Congrats!"
+This thesis describes Reticle, a new low-level abstraction for FPGA programming that, unlike existing languages, explicitly represents the special-purpose units available on a particular FPGA device. Reticle has two levels: a portable intermediate language and a target-specific assembly language. The design goal of the intermediate language is to describe behavior, while the assembly language aims for layout. Furthermore, I demonstrate how to lower intermediate programs to assembly programs, using instruction selection which can be both faster and deterministic compared to existing technology mapping approaches. I use Reticle to implement compute centric benchmarks, such as linear algebra operators and coroutines, and find that Reticle compilation runs up to 100 times faster than current approaches while producing comparable or better run-time and utilization. Additionally, I show how using Reticle’s memory instructions can lead to 5.26𝑥 performance improvement on an existing encryption application (AES)."
+  calendar: '<a target="_blank" href="http://www.google.com/calendar/event?action=TEMPLATE&text=Luis+Vega%2C+Final+Examination&dates=20220505T120000/20220505T133000&details=Programming+Abstractions+and+Efficient+Compilation+Techniques+for+Modern+FPGAs&location=https://washington.zoom.us/j/6851999114"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "TBD"
+  speaker: ["Jiawei Liu", "UIUC", "https://jw-liu.xyz/"]
+  date: "May 12th, 2022, 11:30 am - 12:30 pm PT"
+  location: "CSE2 274"
+  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
+  speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
+  date: "May 16th, 2022, 8:30 am - 10:20 am PT"
+  location: '<a href="https://www.washington.edu/maps/#!/mor">MOR</a> 220'
+  abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
+
+Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
+  bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
+  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmUyOWxzcW1jNWl1dDczMW5tZXM0aXM2bDUgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "Tackling the Communication Bottlenecks of Distributed Deep Learning Training Workloads"
+  speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
+  date: "Apr 28th, 2022"
+  bio: "Chen-Yu is a 4th year Ph.D. student at KAUST. Combining his interests in fundamental systems and the trend of machine learning, Chen-Yu is collaborating with colleagues on developing efficient distributed machine learning systems, to be specific, trying to alleviate network bandwidth bottleneck by offloading aggregation operations to network devices."
+  recording: ['https://www.youtube.com/watch?v=v3kHXn-EVAI', 'public']
+  abstract: "Deep learning-based solutions achieve significant advancements in tasks such as natural language processing, image classification, and recommendation. As more sophisticated models are developed, the increasing training time and memory footprint force practitioners to use distributed training. State-of-the-art distributed training algorithms use iterative synchronization among participating nodes to ensure model consistency and correctness, putting a heavy burden on network communication. Furthermore, hardware accelerators are improving at a faster rate than network bandwidth growth. As a result, the communication phase of distributed training is frequently the bottleneck. In this talk, I will discuss three approaches to dealing with communication bottlenecks: application-level, network-level, and co-design solutions.
+"
 
 - title: "Verified Tensor-Program Optimization Via High-Level Scheduling Rewrites"
   speaker: ["Amanda Liu", "MIT", "https://www.csail.mit.edu/person/amanda-liu"]
@@ -32,25 +56,14 @@ and Prof. Jonathan Ragan-Kelley. Her interests are using formal methods, program
 languages, and types to develop verified, principled methods for writing
 high-performance systems."
 
-- title: "TBD"
-  speaker: ["Chen-Yu Ho", "KAUST", "https://www.chenyuho.com/"]
-  date: "Apr 28th, 2022, 11:30 am - 12:15 pm PT"
-  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+- title: "Compiler and Runtime Techniques for Optimizing Deep Learning Applications"
+  speaker: ["Steven Lyubomirsky", "UW", "https://homes.cs.washington.edu/~sslyu/"]
+  date: "Apr 14th, 2022"
+  recording: ['https://www.youtube.com/watch?v=Pf5iWmSAADA', 'public']
+  abstract: "As the scaling and performance demands for deep learning systems have grown, system designers have struggled to incorporate innovations at opposite ends of the system stack: more varied and complex deep learning models and specialized hardware accelerators. New models that use data structures and dynamic control flow to address new learning problems cannot immediately benefit from previous system-level optimizations, which are defined over static dataflow graphs. Meanwhile, many novel hardware accelerators for accelerating common deep learning operations present unusual computing models and often require manual modification of applications to use, demanding expertise in both the deep learning domain and in hardware. The challenges in adding support for accelerators in existing compiler stacks slow development cycles and constrain deep learning systems' capabilities and efficiency.
 
-- title: "TBD"
-  speaker: ["Jiawei Liu", "UIUC", "https://jw-liu.xyz/"]
-  date: "May 12th, 2022, 11:30 am - 12:30 pm PT"
-  calendar: '<a target="_blank" href=""><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
-
-- title: "Exploiting Parallelism in Large Scale Deep Learning Model Training: From Chips to Systems to Algorithms"
-  speaker: ["Saurabh Kulkarni", "GraphCore", "https://www.linkedin.com/in/saurabh-m-kulkarni"]
-  date: "May 16th, 2022, 8:30 am - 10:20 am PT"
-  location: '<a href="https://www.washington.edu/maps/#!/mor">MOR</a> 220'
-  abstract: "We live in a world where hyperscale systems for machine intelligence are increasingly being used to solve complex problems ranging from natural language processing to computer vision to molecular modeling, drug discovery and recommendation systems. A convergence of breakthrough research in machine learning models and algorithms, increased accessibility to hardware systems at cloud scale for research and thriving software ecosystems are paving the way for an exponential increase in model sizes. Effective parallel processing and model decomposition techniques and large clusters of accelerators will be required to train these models of the future economically.
-
-Attend this session to learn about how Graphcore aims to address scale challenges associated with training large models. Get to know our Intelligent Processing Unit (IPU) – a purpose-built hardware accelerator with a unique MIMD architecture – designed to address the most demanding compute and memory bandwidth needs of modern ML models. Our network disaggregated architecture uniquely positions us to build highly scalable systems (IPU-PODs) with thousands of accelerators aimed at exploiting various dimensions of parallelism."
-  bio: "Saurabh Kulkarni is Head of Engineering for North America at Graphcore. Over the last 20 years, he has held various leadership positions at Intel, Microsoft, and Oracle prior to his current role at Graphcore. His roles have spanned a variety of domains, including computer architecture, server platform Architecture, cloud infrastructure, and hardware accelerators for AI/ML."
-  calendar: '<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NmUyOWxzcW1jNWl1dDczMW5tZXM0aXM2bDUgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+Following earlier work on the Relay IR for the TVM framework, this dissertation demonstrates that system design problems in the deep learning domain can be approached by formalizing deep learning models as programs broadly (rather than assuming a more specific structure like a graph) and applying traditional compiler engineering techniques, simplifying various optimizations and transformations. In particular, this work addresses the use of runtime systems to support optimizations for dynamic deep learning models and on systematically supporting accelerators through the use of a formal software/hardware interface. Traditional deep learning model optimizations have been conceived as transformations on static dataflow graphs, but can be adapted to perform similar reasoning dynamically (and hence make no assumptions about control flow) by performing similar reasoning in a runtime system, guided by heuristics that depend on dynamically gathered information. This work details the specific example of Dynamic Tensor Rematerialization, which is an online approach to the problem of gradient checkpointing (recomputing intermediate activations instead of storing them to reduce the memory required for training) that achieves results comparable to optimal static techniques but generalizes to arbitrarily dynamic models. In addressing the problem of supporting accelerators in deep learning compiler stacks, this work demonstrates that a formal software/hardware interface enables traditional compiler techniques like instruction selection to be adapted for accelerators. Namely, this work presents a methodology for implementing a compiler stack with extensible support for accelerators that uses term rewriting to automatically discover opportunities to apply accelerator operations and lays the foundations for extending formal verification to entire compilation stacks with accelerator support."
+  note: "Steven's PhD Defense talk, Congrats!"
 
 # Winter 2022
 
@@ -106,6 +119,7 @@ In the second half of this talk, I will describe how resources in a shared clust
   speaker: ["Ruihang Lai", "SJTU", "https://github.com/MasterJH5574"]
   date: "Jan 20, 2022"
   location: "CSE2 274"
+  bio: "Ruihang is an undergraduate student at Shanghai Jiao Tong University, he worked on the Apache TVM project with Tianqi Chen. His research interests include Machine Learning Systems and Deep Learning Compilers."
   recording: ['https://www.youtube.com/watch?v=jlMKaHepIuc', 'public']
 
 - title: "Overview of Relax Project"
