@@ -247,12 +247,6 @@ andrewliu:
     webpage: "https://github.com/hypercubestart"
     image: /img/people/andrewliu.jpg
 
-mikehe:
-    display_name: "Mike He"
-    role: ugrad
-    webpage: "https://ad1024.space/about"
-    image: /img/people/mikehe.jpg
-
 naisan:
     display_name: "Naisan Noorassa"
     role: ugrad
@@ -274,6 +268,13 @@ altanh:
     webpage: "https://altanh.com/"
     image: /img/people/altan.jpg
     bio: "Interned in 2019-2020. Now at Berkeley Ph.D. program."
+
+mikehe:
+    display_name: "Mike (Deyuan) He"
+    role: ugrad-alum
+    webpage: "https://homes.cs.washington.edu/~dh63/"
+    image: /img/people/mikehe.jpg
+    bio: "Interned in 2019-2021. Now at Princeton Ph.D. program."
 
 syfeng:
     display_name: "Siyuan Feng"
