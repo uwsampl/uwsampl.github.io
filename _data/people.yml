@@ -101,12 +101,6 @@ jrb:
     role: grad
     image: /img/people/jrb.jpg
 
-sslyu:
-    display_name: "Steven Lyubomirsky"
-    webpage: "https://homes.cs.washington.edu/~sslyu/"
-    role: grad
-    image: /img/people/sslyu.jpg
-
 scott:
     display_name: "Scott Davidson"
     webpage: "https://github.com/stdavids"
@@ -216,6 +210,13 @@ seungyeop:
     role: alum
     image: /img/people/syhan.jpg
     bio: "Ph.D., 2016. Now at Rubrik, Inc."
+
+sslyu:
+    display_name: "Steven Lyubomirsky"
+    webpage: "https://homes.cs.washington.edu/~sslyu/"
+    role: grad
+    image: /img/people/sslyu.jpg
+    bio: "Ph.D., 2022. Now at OctoML."
 
 loganweb:
     display_name: "Logan Weber"
