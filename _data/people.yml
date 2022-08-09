@@ -118,12 +118,6 @@ gussmith:
     role: grad
     image: /img/people/gussmith.png
 
-vega:
-    display_name: "Luis Vega"
-    webpage: "https://homes.cs.washington.edu/~vegaluis/"
-    role: grad
-    image: /img/people/vega.jpg
-
 cyulin:
     display_name: "Chien-Yu Lin"
     webpage: "https://homes.cs.washington.edu/~cyulin/"
@@ -153,6 +147,13 @@ reshabh:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+vega:
+    display_name: "Luis Vega"
+    webpage: "https://homes.cs.washington.edu/~vegaluis/"
+    role: alum
+    image: /img/people/vega.jpg
+    bio: "Ph.D., 2022, Now at Sabana Technologies (Co-founder & CEO)"
 
 jmcmahan:
     display_name: "Joseph McMahan"
