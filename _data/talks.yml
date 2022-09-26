@@ -1,5 +1,6 @@
 # Autumn 2022
 - title: "TC-GNN: Accelerating Sparse Graph Neural Network Computation via Dense Tensor Core on GPUs"
+  location: "CSE2 274"
   speaker: ["Yuke Wang", "UCSB", "https://www.wang-yuke.com/"]
   date: "Oct 13th, 2022, 11:30 am - 12:30 pm PT"
   calendar: <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3NtaDhrZThjNWplNnBuYzIzbTBlOGpnMmdfMjAyMjEwMTNUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
@@ -9,8 +10,9 @@
 At UCSB, Yuke is working with Prof Yufei Ding. Yuke's research interests include high-performance computing and deep learning algorithms. His recent ongoing projects cover graph neural network (GNN) optimization and its acceleration on GPUs. Yuke is also the recipient of NVIDIA Graduate Fellowship 2022 - 2023."
 
 - title: "The Sparse Abstract Machine"
+  location: "CSE2 253 (PLSE Lab)"
   speaker: ["Olivia Hsu", "Stanford", "https://weiya711.github.io/"]
-  date: "Oct 18th, 2022, 12:30 am - 13:30 pm PT"
+  date: "Oct 18th, 2022, 12:30 pm - 13:30 pm PT"
   calendar: <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3NtaDhrZThjNWplNnBuYzIzbTBlOGpnMmdfMjAyMjEwMjBUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
   bio: "Olivia is a computer science PhD student at Stanford University advised by Professor Kunle Olukotun and Professor Fredrik Kjolstad. She currently work on mapping sparse tensor expressions to domain-specific hardware, architectures, and accelerators through the taco compiler. Her research interests also broadly include computer architecture, computer and programming systems, compilers, programming models and languages, and digital circuits/VLSI.
 
