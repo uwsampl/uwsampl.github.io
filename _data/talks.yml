@@ -1,13 +1,20 @@
 # Autumn 2022
-- title: "TBA"
+- title: "TC-GNN: Accelerating Sparse Graph Neural Network Computation via Dense Tensor Core on GPUs"
   speaker: ["Yuke Wang", "UCSB", "https://www.wang-yuke.com/"]
   date: "Oct 13th, 2022, 11:30 am - 12:30 pm PT"
   calendar: <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3NtaDhrZThjNWplNnBuYzIzbTBlOGpnMmdfMjAyMjEwMTNUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+  abstract: 'Recently, graph neural networks (GNNs), as the backbone of graph-based machine learning, demonstrate great success in various domains (e.g., e-commerce). However, the performance of GNNs is usually unsatisfactory due to the highly sparse and irregular graph-based operations. To this end, we propose, TC-GNN, the first GPU Tensor Core Unit (TCU) based GNN acceleration framework. The core idea is to reconcile the "Sparse" GNN computation with "Dense" TCU. Specifically, we conduct an in-depth analysis of the sparse operations in mainstream GNN computing frameworks. We introduce a novel sparse graph translation technique to facilitate TCU processing of sparse GNN workload. We also implement an effective CUDA core and TCU collaboration design to fully utilize GPU resources. We fully integrate TC-GNN with the Pytorch framework for ease of programming. Rigorous experiments show an average of 1.70X speedup over the state-of-the-art Deep Graph Library framework across various GNN models and dataset settings.'
+  bio: "Yuke Wang is a fifth-year Doctor of Philosophy (Ph.D.) candidate in the department of computer science at the University of California, Santa Barbara (UCSB). He got his Bachelor of Engineering (B.E.) in software engineering from the University of Electronic Science and Technology of China (UESTC) in 2018.
 
-- title: "TBA"
+At UCSB, Yuke is working with Prof Yufei Ding. Yuke's research interests include high-performance computing and deep learning algorithms. His recent ongoing projects cover graph neural network (GNN) optimization and its acceleration on GPUs. Yuke is also the recipient of NVIDIA Graduate Fellowship 2022 - 2023."
+
+- title: "The Sparse Abstract Machine"
   speaker: ["Olivia Hsu", "Stanford", "https://weiya711.github.io/"]
-  date: "Oct 20th, 2022, 11:30 am - 12:30 pm PT"
+  date: "Oct 18th, 2022, 12:30 am - 13:30 pm PT"
   calendar: <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=N3NtaDhrZThjNWplNnBuYzIzbTBlOGpnMmdfMjAyMjEwMjBUMTgzMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+  bio: "Olivia is a computer science PhD student at Stanford University advised by Professor Kunle Olukotun and Professor Fredrik Kjolstad. She currently work on mapping sparse tensor expressions to domain-specific hardware, architectures, and accelerators through the taco compiler. Her research interests also broadly include computer architecture, computer and programming systems, compilers, programming models and languages, and digital circuits/VLSI.
+
+She graduated from the University of California, Berkeley in 2019 with a degree in Electrical Engineering and Computer Science (EECS). At Berkeley, She was fortunate enough to be advised by Professor Vladimir Stojanovic and work with Panagiotis Zarkos on novel applications of silicon-photonics."
 
 
 # Spring 2022
