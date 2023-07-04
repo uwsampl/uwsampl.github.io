@@ -69,7 +69,6 @@ ztatlock:
     bio: "Associate Professor"
 
 
-
 # Postdocs/Collaborators
 
 # Alphabetical order
@@ -261,11 +260,27 @@ naisan:
     webpage: "https://github.com/noorassan"
     image: /img/people/naisan.png
 
+
+shauncl8:
+    display_name: "Shaun Christopher Lee"
+    role: ugrad
+    webpage: "https://github.com/shaunlee8"
+
 sidlak:
     display_name: Sidharth Lakshmanan
     role: ugrad
     webpage: "https://www.linkedin.com/in/sidharth-lakshmanan-30527a168"
-    image: /img/people/sidlak.jpg
+
+yifeizuo:
+    display_name: "Yifei Zuo"
+    role: ugrad
+    webpage: "https://github.com/Dune-Z"
+
+yxdong1:
+    display_name: "Yixin Dong"
+    role: ugrad
+    webpage: "https://github.com/Ubospica"
+
 
 # Undergrad Alums
 # Alphabetical order
