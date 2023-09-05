@@ -71,6 +71,13 @@ ztatlock:
 
 # Postdocs/Collaborators
 
+zhengsz:
+    display_name: "Size Zheng"
+    webpage: "github.com/knowingNothing/"
+    github: knowingNothing
+    role: visitor
+    image: https://avatars.githubusercontent.com/u/30207895?v=4
+
 # Alphabetical order
 
 jacob:

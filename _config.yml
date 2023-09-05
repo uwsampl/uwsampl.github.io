@@ -18,6 +18,8 @@ roles:
   #   name: Staff
   - key: postdoc
     name: Researchers
+  - key: visitor
+    name: Visiting Graduate Students
   - key: grad
     name: Graduate Students
   - key: ugrad
