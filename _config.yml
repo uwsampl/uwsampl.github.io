@@ -50,6 +50,8 @@ navigation:
     link: /#people
   - title: Research
     link: /research.html
+  - title: Blog
+    link: /blog.html
   - title: Publications
     link: /publications.html
   - title: Talks
