@@ -73,7 +73,7 @@ ztatlock:
 
 zhengsz:
     display_name: "Size Zheng"
-    webpage: "github.com/knowingNothing/"
+    webpage: "https://sizezheng.github.io/"
     github: knowingNothing
     role: visitor
     image: /img/people/szzheng.jpg
