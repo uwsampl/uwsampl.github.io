@@ -17,13 +17,6 @@ tqchen:
     image: /img/people/tqchen.jpg
     bio: "Assistant Professor - CMU"
 
-carlos:
-    display_name: "Carlos Guestrin"
-    webpage: "http://homes.cs.washington.edu/~guestrin/"
-    role: faculty
-    image: /img/people/guestrin.jpg
-    bio: "Professor"
-
 arvind:
     display_name: "Arvind Krishnamurthy"
     webpage: "https://www.cs.washington.edu/people/faculty/arvind/"
@@ -31,6 +24,13 @@ arvind:
     role: faculty
     image: /img/people/arvind.png
     bio: "Professor"
+
+baris:
+    display_name: "Baris Kasikci"
+    webpage: "https://web.eecs.umich.edu/~barisk/"
+    role: faculty
+    image: /img/people/baris.jpeg
+    bio: "Assistant Professor"
 
 taylor:
     display_name: "Michael Taylor"
@@ -53,13 +53,6 @@ matthai:
     image: /img/people/matthai.jpg
     bio: "Affiliate Professor"
 
-alexr:
-    display_name: Alex Ratner
-    webpage: "https://ajratner.github.io/"
-    role: faculty
-    image: /img/people/alexr.jpg
-    bio: "Assistant Professor"
-
 ztatlock:
     display_name: "Zachary Tatlock "
     webpage: "https://ztatlock.net/"
@@ -79,6 +72,20 @@ zhengsz:
     image: /img/people/szzheng.jpg
 
 # Alphabetical order
+
+carlos:
+    display_name: "Carlos Guestrin"
+    webpage: "http://homes.cs.washington.edu/~guestrin/"
+    role: collab
+    image: /img/people/guestrin.jpg
+    bio: "Professor"
+
+alexr:
+    display_name: Alex Ratner
+    webpage: "https://ajratner.github.io/"
+    role: collab
+    image: /img/people/alexr.jpg
+    bio: "Assistant Professor"
 
 jacob:
     display_name: Jacob Nelson
@@ -136,25 +143,25 @@ cyulin:
     role: grad
     image: /img/people/chienyu.jpg
 
+lqchen:
+    display_name: "Lequn Chen"
+    webpage: "https://abcdabcd987.com/about/"
+    role: grad
+
 zhye:
     display_name: "Zihao Ye"
     webpage: "https://homes.cs.washington.edu/~zhye"
     role: grad
     image: /img/people/zhye.png
 
-hwpeng:
-    display_name: "Huwan Peng"
-    webpage: "http://students.washington.edu/hwpeng/"
+liangyu:
+    display_name: "Liangyu Zhao"
+    webpage: "https://github.com/liangyuRain"
     role: grad
 
-bandhav:
-    display_name: "Bandhav Veluri"
-    webpage: "mailto:bandhav@cs.washington.edu"
-    role: grad
-
-reshabh:
-    display_name: "Reshabh Sharma"
-    webpage: "https://homes.cs.washington.edu/~reshabh/"
+wxdeng:
+    display_name: "Weixin Deng"
+    webpage: "https://www.dengwxn.com/"
     role: grad
 
 # Alums
