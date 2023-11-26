@@ -4,7 +4,7 @@
   location: "CSE 505"
   speaker: ["Yixin Dong", "UW SAMPL & SJTU", "https://github.com/ubospica"]
   date: "Dec 1st, 2023, 12:00 pm - 12:45 pm PT"
-  bio: "Yixin is a senior undergraduate from Shanghai Jiao Tong University and he is a visting student at University of Washington, advised by Tianqi Chen and Luis Ceze, his research interest include LLM systems and Machine Learning Compilers. His current research project is On-Device LLM Fine-tuning with Machine Learning Compilers."
+  bio: "Yixin is a senior undergraduate from Shanghai Jiao Tong University and he is a visiting student at University of Washington, advised by Tianqi Chen and Luis Ceze, his research interest include LLM systems and Machine Learning Compilers. His current research project is On-Device LLM Fine-tuning with Machine Learning Compilers."
   calendar: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MGEwaWkzbWlpcjlkc2tuNTVja284NTRrYWZfMjAyMzEyMDFUMjAwMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "Scaling up Retrieval-based Language Models"

@@ -27,10 +27,10 @@ arvind:
 
 baris:
     display_name: "Baris Kasikci"
-    webpage: "https://web.eecs.umich.edu/~barisk/"
+    webpage: "https://homes.cs.washington.edu/~baris/"
     role: faculty
     image: /img/people/baris.jpeg
-    bio: "Assistant Professor"
+    bio: "Associate Professor"
 
 taylor:
     display_name: "Michael Taylor"
