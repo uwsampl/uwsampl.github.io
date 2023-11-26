@@ -1,12 +1,25 @@
 # Autumn 2023
 
+- title: "Universal Deployment of LLM Fine-tuning"
+  location: "CSE 505"
+  speaker: ["Yixin Dong", "UW SAMPL & SJTU", "https://github.com/ubospica"]
+  date: "Dec 1st, 2023, 12:00 pm - 12:45 pm PT"
+  bio: "Yixin is a senior undergraduate from Shanghai Jiao Tong University and he is a visting student at University of Washington, advised by Tianqi Chen and Luis Ceze, his research interest include LLM systems and Machine Learning Compilers. His current research project is On-Device LLM Fine-tuning with Machine Learning Compilers."
+  calendar: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MGEwaWkzbWlpcjlkc2tuNTVja284NTRrYWZfMjAyMzEyMDFUMjAwMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "Scaling up Retrieval-based Language Models"
+  location: "CSE 505"
+  speaker: ["Rulin Shao", "UWNLP", "https://rulinshao.github.io/"]
+  date: "Oct 20th, 2023"
+  bio: "Rulin is a first-year PhD at University of Washington advised by Prof. Pang Wei Koh and Prof. Luke Zettlemoyer. She worked as an applied scientist at AWS, focusing on large-scale pretraining for Amazon Bedrock , from January 2023 to June 2023. Before that, she obtained her master in Machine Learning at CMU advised by Prof. Eric Xing. Rulin did her undergraduate in Mathematics at XJTU. Her current research interest is to make LLMs more accessible to academics with a focus on retrieval-based LMs and efficient system-algorithm codesign."
+
 - title: "Efficient Memory Management for Large Language Model Serving with PagedAttention"
   location: "CSE 505"
   speaker: ["Woosuk Kwon", "UC Berkeley", "https://woosuk.me/"]
-  date: "Sept 29th, 2023, 11:00 am - 12:00 pm PT"
+  date: "Sept 29th, 2023"
   abstract: "High throughput serving of large language models (LLMs) requires batching sufficiently many requests at a time. However, existing systems struggle because the key-value cache (KV cache) memory for each request is huge and grows and shrinks dynamically. When managed inefficiently, this memory can be significantly wasted by fragmentation and redundant duplication, limiting the batch size. To address this problem, we propose PagedAttention, an attention algorithm inspired by the classical virtual memory and paging techniques in operating systems. On top of it, we build vLLM, an LLM serving system that achieves (1) near-zero waste in KV cache memory and (2) flexible sharing of KV cache within and across requests to further reduce memory usage. Our evaluations show that vLLM improves the throughput of popular LLMs by 2-4× with the same level of latency compared to the state-of-the-art systems, such as FasterTransformer and Orca. The improvement is more pronounced with longer sequences, larger models, and more complex decoding algorithms. vLLM's source code is publicly available at https://github.com/vllm-project/vllm"
   bio: "Woosuk is a Ph.D. student at UC Berkeley, advised by Prof. Ion Stoica. He is interested in building practical, flexible, and high-performance software systems for emerging applications such as large language models."
-  calendar: <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MW51ZTBrbTgyaG9jY3FqNTBhM2xlc2kzZXQgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+  recording: ['https://drive.google.com/file/d/1JC7FdGymVNmUhEUo-o7cQhZAhKn6ITXD/view?usp=sharing', 'internal']
 
 # Spring 2023
 
