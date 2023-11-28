@@ -8,6 +8,7 @@ people:
   - zhye
   - lqchen
   - ruihang
+  - yilongzhao
   - yifeizuo
   - yxdong1
   - zhengsz
