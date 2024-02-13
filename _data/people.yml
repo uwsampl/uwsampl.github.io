@@ -181,6 +181,15 @@ kanzhu:
     webpage: "https://kanzhu.netlify.app/"
     role: grad
     
+kamahori:
+    display_name: "Keisuke Kamahori"
+    webpage: "https://kamahori.org/"
+    role: grad
+
+yilegu:
+    display_name: "Yile (Michael) Gu"
+    webpage: "https://ikace.github.io/"
+    role: grad
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
