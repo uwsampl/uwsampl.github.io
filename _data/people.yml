@@ -160,6 +160,12 @@ lqchen:
     role: grad
     image: https://abcdabcd987.com/about/clq2021winter3_small.jpg
 
+tapanc:
+    display_name: "Tapan Chugh"
+    webpage: "https://chughtapan.github.io/"
+    role: grad
+    image: https://chughtapan.github.io/assets/img/pic.jpg
+
 zhye:
     display_name: "Zihao Ye"
     webpage: "https://homes.cs.washington.edu/~zhye"
@@ -329,6 +335,11 @@ yilongzhao:
     webpage: "https://github.com/happierpig"
     image: /img/people/ylzhao.jpg
 
+shanlx:
+    display_name: "Shanli Xing"
+    role: ugrad
+    webpage: "https://github.com/xslingcn"
+    image: "https://avatars.githubusercontent.com/u/43036991?v=4"
 
 # Undergrad Alums
 # Alphabetical order

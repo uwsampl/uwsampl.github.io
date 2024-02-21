@@ -1,11 +1,30 @@
+# Winter 2024
+
+- title: "Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models"
+  location: "CSE 505"
+  date: "Feb 23th, 2024, 12:00 - 13:00 PST"
+  speaker: ["Keisuke Kamahori", "University of Washington", "https://kamahori.org/"]
+  bio: "Keisuke Kamahori is a first-year Ph.D. student at Paul G. Allen School of Computer Science & Engineering, University of Washington, advised by Baris Kasikci. He is broadly interested in computer systems and architecture, with a focus on system for LLMs recently.
+Prior to that, he received B. Sc. in Information Science from the University of Tokyo in 2023, advised by Shinya Takamaeda-Yamazaki. He also worked with James Larus at EPFL in the summer of 2022."
+  abstract: "Large Language Models (LLMs) based on Mixture-of-Experts (MoE) architecture are showing promising performance on various tasks. However, running them on resource-constrained settings, where GPU memory resources are not abundant, is challenging due to huge model sizes. Existing systems that offload model weights to CPU memory suffer from the significant overhead of frequently moving data between CPU and GPU. In this paper, we propose Fiddler, a resource-efficient inference engine with CPU-GPU orchestration for MoE models. The key idea of Fiddler is to use the computation ability of the CPU to minimize the data movement between the CPU and GPU. Our evaluation shows that Fiddler can run the uncompressed Mixtral-8x7B model, which exceeds 90GB in parameters, to generate over 3 tokens per second on a single GPU with 24GB memory, showing an order of magnitude improvement over existing methods. The code of Fiddler is publicly available at https://github.com/efeslab/fiddler"
+  calendar: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NDJobnMwaThkZGdtMTZkYm03M3ZiZ3Q5MzQgY3Mud2FzaGluZ3Rvbi5lZHVfZWsxczk4aDBvajFiNGI0OW0ydDY5ZjVwZW9AZw&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
+
+- title: "Ray (Data): A scalable and flexible ML toolkit"
+  location: "CSE 305"
+  speaker: ["Stephanie Wang", "University of Washington & Anyscale", "https://stephanie-wang.github.io/"]
+  date: "Feb 16th, 2024"
+  bio: "Stephanie is an incoming assistant professor in computer science at the University of Washington, starting in fall 2024. If you are interested in distributed systems, systems for machine learning and data processing, programming languages, and/or how these topics fit together. Previously, She was a PhD student in the RISELab at UC Berkeley, where she was advised by Ion Stoica. She is also a co-creator and committer for the open-source project, Ray, which has been used to train ChatGPT, serve high-performance LLMs, and break the CloudSort 100TB record. At the moment, She is continuing to develop the Ray ecosystem as a software engineer at Anyscale, working primarily on Ray Data, a system for distributed data preprocessing for ML, and some new things."
+  abstract: "Ray is a framework for scaling ML and Python applications. In this talk, I'll explain the motivation and a brief history of Ray. The system consists of a general-purpose distributed execution *Core* and a collection of distributed libraries that are designed for specific domains common to end-to-end ML applications, such as distributed training or inference. I'll also give a deep dive of Ray Data, one of the key libraries that supports data processing for ML. Finally, I'll give an update on our current work in reducing system-level overheads in Ray to enable fine-grained orchestration of distributed accelerators. The goal is to reduce developer burden in building high-performance distributed systems, such as for LLM inference.
+
+If we have time, we'll do a short tutorial together on Ray Data. If you'd like to follow along, please come prepared with a Python 3.10 environment and install Ray with `pip install -U ray` (more installation instructions here: https://docs.ray.io/en/latest/ray-overview/installation.html)."
+
 # Autumn 2023
 
-- title: "Universal Deployment of LLM Fine-tuning"
+- title: "Privacy-aware universal deployment of LLM fine-tuning"
   location: "CSE 505"
   speaker: ["Yixin Dong", "UW SAMPL & SJTU", "https://github.com/ubospica"]
-  date: "Dec 8th, 2023, 12:00 pm - 12:45 pm PT"
+  date: "Dec 14th, 2023"
   bio: "Yixin is a senior undergraduate from Shanghai Jiao Tong University and he is a visiting student at University of Washington, advised by Tianqi Chen and Luis Ceze, his research interest include LLM systems and Machine Learning Compilers. His current research project is On-Device LLM Fine-tuning with Machine Learning Compilers."
-  calendar: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MGEwaWkzbWlpcjlkc2tuNTVja284NTRrYWZfMjAyMzEyMDhUMjAwMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 - title: "Scaling up Retrieval-based Language Models"
   location: "CSE 505"
