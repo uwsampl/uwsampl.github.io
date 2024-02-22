@@ -32,6 +32,13 @@ baris:
     image: /img/people/baris.jpeg
     bio: "Associate Professor"
 
+smwang:
+    display_name: "Stephanie Wang"
+    webpage: "https://stephanie-wang.github.io/"
+    role: faculty
+    image: https://stephanie-wang.github.io/images/profile-small.jpg
+    bio: "Assistant Professor"
+
 taylor:
     display_name: "Michael Taylor"
     webpage: "https://www.cs.washington.edu/people/faculty/profmbt"
