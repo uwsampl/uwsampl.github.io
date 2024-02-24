@@ -1,0 +1,37 @@
+(TeX-add-style-hook
+ "pubs"
+ (lambda ()
+   (LaTeX-add-bibitems
+    "sparsetir"
+    "spin"
+    "srifty"
+    "Dietcode"
+    "Glenside"
+    "Porcupine"
+    "Reticle"
+    "ziheng2021icml"
+    "CacheSample"
+    "Nimble"
+    "HAGO"
+    "DTR"
+    "Srift"
+    "LastLayer"
+    "PLink"
+    "Riptide"
+    "QuantCGO"
+    "VTA"
+    "Relay"
+    "AutoTVM"
+    "cowan2018automating"
+    "TVMOSDI"
+    "PHub"
+    "RelayMAPL"
+    "MATIC"
+    "PHubSysML"
+    "shen17-cvpr"
+    "XGBoostKDD"
+    "han16-mobisys"
+    "MXNetLearningSys"
+    "SNNAPHPCA"))
+ :bibtex)
+
