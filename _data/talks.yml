@@ -1,3 +1,16 @@
+# Spring 2024
+- title: "Accelerating Large Language Model Inference on FPGA with Allo"
+  location: "CSE 505"
+  speaker: ["Hongzheng Chen", "Cornell University", "https://chhzh123.github.io/"]
+  date: "May 31st, 2024"
+  bio: "Hongzheng Chen is a third-year Ph.D. student at Cornell University supervised by Prof. Zhiru Zhang. His research interests broadly lie in domain-specific languages and compilers, efficient runtime systems, and accelerator architecture. He is currently working on compiler optimizations for large-scale heterogeneous computing systems with a special focus on accelerating deep learning applications. He has published several papers on top-tier computer systems & hardware conferences including ASPLOS, PLDI, SC, FPGA, and ICCAD."
+  abstract: "As the benefits of technology scaling diminish, specialized hardware accelerators are crucial for performance in emerging applications. However, designers currently lack effective tools and methodologies to construct complex, high-performance accelerator architectures. Existing high-level synthesis (HLS) tools often require intrusive source-level changes to attain satisfactory quality of results. While new accelerator design languages (ADLs) aim to enhance or replace HLS, they are typically more effective for simple applications with a single kernel, rather than for hierarchical designs with multiple kernels.
+
+In the first part of this talk, I will introduce Allo, a composable programming model for efficient hardware accelerator design (to appear in PLDI’24). Allo decouples hardware customizations, including compute, memory, communication, and data types from algorithm specification, and encapsulates them as a set of customization primitives. Allo also preserves the hierarchical structure of an input program by combining customizations from different functions in a bottom-up, type-safe manner. Our evaluation shows that Allo can outperform state-of-the-art HLS tools and ADLs on all test cases in the PolyBench.
+
+Furthermore, I will demonstrate how Allo optimizes large-scale designs by composing optimized individual kernels. I will use a spatial architecture for large language models (LLMs) as an example. This accelerator implements a design point of our analytical model presented in FCCM’24, where we introduce a comprehensive analytical framework for estimating the performance of a spatial LLM accelerator. Through this analysis, we can identify the most effective parallelization and buffering schemes for the accelerator and, crucially, determine the scenarios in which FPGA-based spatial acceleration can outperform its GPU-based counterpart. For GPT generative inference, our accelerator attains a 2.2× speedup compared to DFX, an FPGA overlay, in the prefill stage, while achieving a 1.9× speedup and a 5.7× improvement in energy efficiency compared to the NVIDIA A100 GPU in the decode stage."
+
+
 # Winter 2024
 
 - title: "Fiddler: CPU-GPU Orchestration for Fast Inference of Mixture-of-Experts Models"
