@@ -161,12 +161,6 @@ cyulin:
     role: grad
     image: /img/people/chienyu.jpg
 
-lqchen:
-    display_name: "Lequn Chen"
-    webpage: "https://abcdabcd987.com/about/"
-    role: grad
-    image: https://abcdabcd987.com/about/clq2021winter3_small.jpg
-
 tapanc:
     display_name: "Tapan Chugh"
     webpage: "https://chughtapan.github.io/"
@@ -207,6 +201,13 @@ yilegu:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+lqchen:
+    display_name: "Lequn Chen"
+    webpage: "https://abcdabcd987.com/about/"
+    role: alum
+    image: https://abcdabcd987.com/about/clq2021winter3_small.jpg
+    bio: "Ph.D., 2024, Now at Perplexity AI."
 
 vega:
     display_name: "Luis Vega"
@@ -315,7 +316,6 @@ naisan:
     webpage: "https://github.com/noorassan"
     image: /img/people/naisan.png
 
-
 shauncl8:
     display_name: "Shaun Christopher Lee"
     role: ugrad
@@ -326,28 +326,16 @@ sidlak:
     role: ugrad
     webpage: "https://www.linkedin.com/in/sidharth-lakshmanan-30527a168"
 
-yifeizuo:
-    display_name: "Yifei Zuo"
-    role: ugrad
-    webpage: "https://github.com/Dune-Z"
-    image: /img/people/yfzuo.png
-
-yxdong1:
-    display_name: "Yixin Dong"
-    role: ugrad
-    webpage: "https://github.com/Ubospica"
-
-yilongzhao:
-    display_name: "Yilong Zhao"
-    role: ugrad
-    webpage: "https://github.com/happierpig"
-    image: /img/people/ylzhao.jpg
-
 shanlx:
     display_name: "Shanli Xing"
     role: ugrad
     webpage: "https://github.com/xslingcn"
     image: "https://avatars.githubusercontent.com/u/43036991?v=4"
+
+pyondan:
+    display_name: "Daniel Pyon"
+    role: ugrad
+    webpage: "https://danielpyon.github.io/"
 
 # Undergrad Alums
 # Alphabetical order
@@ -400,6 +388,25 @@ lmzheng:
     image: /img/people/lmzheng.jpg
     bio: "Interned in 2018. Now at Berkeley Ph.D. program."
 
+yifeizuo:
+    display_name: "Yifei Zuo"
+    role: ugrad-alum
+    webpage: "https://github.com/Dune-Z"
+    image: /img/people/yfzuo.png
+    bio: "Interned in 2023. Now at Northwestern Ph.D. program."
+
+yxdong1:
+    display_name: "Yixin Dong"
+    role: ugrad-alum
+    webpage: "https://github.com/Ubospica"
+    bio: "Interned in 2023. Now at CMU Ph.D. program."
+
+yilongzhao:
+    display_name: "Yilong Zhao"
+    role: ugrad
+    webpage: "https://github.com/happierpig"
+    image: /img/people/ylzhao.jpg
+    bio: "Interned in 2023. Now at Berkeley Ph.D. program."
 
 # ugrad-e:
 #     display_name: "Ugrad E"
