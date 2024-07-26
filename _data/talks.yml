@@ -1,3 +1,14 @@
+# Summer 2024
+- title: "Optimal Kernel Orchestration for Tensor Programs with Korch"
+  location: "CSE 505"
+  speaker: ["Muyan Hu", "University of Illinois Urbana-Champaign", "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/in/muyan-hu-ab9283227"]
+  date: "July 26th, 2024, 12:00 - 13:00 PST"
+  bio: "Muyan Hu is a PhD student at UIUC advised by Vikram Adve and Charith Mendis."
+  abstract: "Kernel orchestration is the task of mapping the computation defined in different operators of a deep neural network (DNN) to the execution of GPU kernels on modern hardware platforms. Prior approaches optimize kernel orchestration by greedily applying operator fusion, which fuses the computation of multiple operators into a single kernel, and miss a variety of optimization opportunities in kernel orchestration.
+This paper presents Korch, a tensor program optimizer that discovers optimal kernel orchestration strategies for tensor programs. Instead of directly fusing operators, Korch first applies operator fission to decompose tensor operators into a small set of basic tensor algebra primitives. This decomposition enables a diversity of fine-grained, inter-operator optimizations. Next, Korch optimizes kernel orchestration by formalizing it as a constrained optimization problem, leveraging an off-the-shelf binary linear programming solver to discover an optimal orchestration strategy, and generating an executable that can be directly deployed on modern GPU platforms. Evaluation on a variety of DNNs shows that Korch outperforms existing tensor program optimizers by up to 1.7× on V100 GPUs and up to 1.6× on A100 GPUs. Korch is publicly available at https://github.com/humuyan/Korch."
+  calendar: "<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=Nm5sdXI2NWh2aXRjZ2c2ZjBiMWtjaWNoaG5fMjAyNDA3MjZUMTkwMDAwWiBjcy53YXNoaW5ndG9uLmVkdV9lazFzOThoMG9qMWI0YjQ5bTJ0NjlmNXBlb0Bn&amp;tmsrc=cs.washington.edu_ek1s98h0oj1b4b49m2t69f5peo%40group.calendar.google.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>"
+
+
 # Spring 2024
 - title: "Accelerating Large Language Model Inference on FPGA with Allo"
   location: "CSE 505"
@@ -9,7 +20,6 @@
 In the first part of this talk, I will introduce Allo, a composable programming model for efficient hardware accelerator design (to appear in PLDI’24). Allo decouples hardware customizations, including compute, memory, communication, and data types from algorithm specification, and encapsulates them as a set of customization primitives. Allo also preserves the hierarchical structure of an input program by combining customizations from different functions in a bottom-up, type-safe manner. Our evaluation shows that Allo can outperform state-of-the-art HLS tools and ADLs on all test cases in the PolyBench.
 
 Furthermore, I will demonstrate how Allo optimizes large-scale designs by composing optimized individual kernels. I will use a spatial architecture for large language models (LLMs) as an example. This accelerator implements a design point of our analytical model presented in FCCM’24, where we introduce a comprehensive analytical framework for estimating the performance of a spatial LLM accelerator. Through this analysis, we can identify the most effective parallelization and buffering schemes for the accelerator and, crucially, determine the scenarios in which FPGA-based spatial acceleration can outperform its GPU-based counterpart. For GPT generative inference, our accelerator attains a 2.2× speedup compared to DFX, an FPGA overlay, in the prefill stage, while achieving a 1.9× speedup and a 5.7× improvement in energy efficiency compared to the NVIDIA A100 GPU in the decode stage."
-  calendar: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NzBoamtvYzFjZWIycXZlN281N2dvdjVhMmMga2FtYWhvcmlAY3Mud2FzaGluZ3Rvbi5lZHU&amp;tmsrc=kamahori%40cs.washington.edu"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>'
 
 # Winter 2024
 
