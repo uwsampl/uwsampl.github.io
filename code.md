@@ -8,6 +8,7 @@ We believe the best way to learning system research is to build
 open source systems that solve real world problems.
 
  * [uwsampl on Github](https://github.com/uwsampl/)
+ * [Palu](https://github.com/shadowpa0327/Palu)
  * [Fiddler](https://github.com/efeslab/fiddler)
  * [FlashInfer](https://github.com/flashinfer-ai/flashinfer)
  * [Punica](https://github.com/punica-ai/punica)
