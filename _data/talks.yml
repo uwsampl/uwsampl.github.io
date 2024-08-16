@@ -1,4 +1,11 @@
 # Summer 2024
+- title: "Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters"
+  location: "CSE 505"
+  speaker: ["Weiyang Wang", "", "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/in/weiyangwang/"]
+  date: "Aug 16th, 2024, 12:00 - 13:00 PST"
+  bio: "Weiyang Wang is a PhD student at MIT CSAIL."
+  abstract: "This paper presents a low-cost network architecture for training large language models (LLMs) at hyperscale. We study the optimal parallelization strategy of LLMs and propose a novel datacenter network design tailored to LLM's unique communication pattern. We show that LLM training generates sparse communication patterns in the network and, therefore, does not require any-to-any full-bisection network to complete efficiently. As a result, our design eliminates the spine layer in traditional GPU clusters. We name this design a Rail-only network and demonstrate that it achieves the same training performance while reducing the network cost by 38% to 77% and network power consumption by 37% to 75% compared to a conventional GPU datacenter. Our architecture also supports Mixture-of-Expert (MoE) models with all-to-all communication through forwarding, with only 4.1% to 5.6% completion time overhead for all-to-all traffic. We study the failure robustness of Rail-only networks and provide insights into the performance impact of different network and training parameters."
+  
 - title: "Optimal Kernel Orchestration for Tensor Programs with Korch"
   location: "CSE 505"
   speaker: ["Muyan Hu", "University of Illinois Urbana-Champaign", "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/in/muyan-hu-ab9283227"]
