@@ -1,4 +1,12 @@
 # Summer 2024
+- title: "Intelligent Software in the Era of Deep Learning"
+  location: "CSE 505"
+  speaker: ["Yuke Wang", "University of California, Santa Barbara", "https://www.wang-yuke.com/"]
+  date: "Aug 23, 2024, 12:00 - 13:00 PST"
+  bio: "Yuke Wang is the incoming assistant professor at Rice University CS Department in Fall 2025"
+  abstract: "With the end of Moore’s Law and the rise of compute- and data-intensive deep-learning (DL) applications, the focus on arduous new processor design has shifted towards a more effective and agile approach -- Intelligent Software to maximize the performance gains of DL hardware like GPUs.
+In this talk, I will first highlight the importance of software innovation to bridge the gap between the increasingly diverse DL applications and the existing powerful DL hardware platforms. The second part of my talk will recap my research work on DL system software innovation, focusing on bridging the 1) Precision Mismatch between DL applications and high-performance GPU units like Tensor Cores (PPoPP ’21, SC ’21, and ATC’23), and 2) Computing Pattern Mismatch between the sparse and irregular DL applications such as Graph Neural Networks and the dense and regular tailored GPU computing paradigm (OSDI ’21 and OSDI ’23). Finally, I will conclude this talk with my vision and future work for building efficient, scalable, and secure DL systems."  
+  
 - title: "Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters"
   location: "CSE 505"
   speaker: ["Weiyang Wang", "MIT", "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/in/weiyangwang/"]
