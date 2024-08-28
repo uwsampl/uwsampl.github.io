@@ -409,6 +409,12 @@ yilongzhao:
     image: /img/people/ylzhao.jpg
     bio: "Interned in 2023. Now at Berkeley Ph.D. program."
 
+chichihchang:
+    display_name: "Chi-Chih Chang"
+    role: ugrad-alum
+    webpage: "https://github.com/shadowpa0327"
+    bio: "Interned in 2024 (remote). Now at Cornell Ph.D. program."
+
 # ugrad-e:
 #     display_name: "Ugrad E"
 #     role: ugrad
