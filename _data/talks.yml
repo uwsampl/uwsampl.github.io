@@ -1,4 +1,16 @@
 # Summer 2024
+- title: "The Design of an Efficient Scheduling System for Emerging Applications."
+  location: "CSE 505"
+  speaker: ["Lisa Li", "Cornell University/MIT", "https://yueying-lisa-li.org/"]
+  date: "Sep 06, 2024, 11:00 - 12:30 PST"
+  bio: "Lisa Li is a CS PhD student at Cornell, with a current focus on sustainability, efficiency and reliability on scheduling problems in cloud computing. She also works on reinforcement learning and efficient LLM serving. She worked at Apple designing CPUs in California after graduation from SJTU and UM, deferring offers of PhD. She graduated with the highest honor in ECE, CE, and a minor in Math. She is passionate about mentorship in the CS community and serves on the CASA committee and CALM committee (a long-term mentorship program)."
+  
+- title: "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving"
+  location: "CSE 505"
+  speaker: ["Junda Chen", "University of California, San Diego", "https://gindachen.github.io/"]
+  date: "Aug 30, 2024, 12:00 - 13:00 PST"
+  bio: "Junda Chen is a 1st year PhD student at Dept. Computer Science and Engineering at UC San Diego" 
+
 - title: "Intelligent Software in the Era of Deep Learning"
   location: "CSE 505"
   speaker: ["Yuke Wang", "University of California, Santa Barbara", "https://www.wang-yuke.com/"]
