@@ -1,9 +1,18 @@
 # Summer 2024
-- title: "The Design of an Efficient Scheduling System for Emerging Applications."
+- title: "Approximate Caching for Efficiently Serving Text-to-Image Diffusion Models"
+  location: "CSE 505"
+  speaker: ["Shubham Agarwal", "Adobe Research, India", "https://skejriwal44.github.io/"]
+  date: "Sep 13, 2024, 12:00 - 13:00 PST"
+  bio: "Shubham is currently a pre-doctoral researcher at Adobe Research, India, focusing on inference optimization for text-to-image models and LLMs using approximate caching, efficient scheduling, and resource management. He works on enhancing the efficiency of generative models at both the algorithmic and hardware levels. He has first-author publications in NSDI, ECCV, and FSE, and has co-authored papers in WWW, ASE, and PAKDD. In addition to research, Shubham has contributed code to production systems at Adobe. He completed his Bachelor's degree in Computer Science from BITS Pilani in 2022. He is passionate about efficiency in large AI models and is planning to pursue a PhD next fall. Outside of work, he enjoys long drives and cycling."
+  abstract: "Text-to-image generation using diffusion models has gained explosive popularity due to their ability to produce high-quality images adhering to text prompts. However, diffusion models undergo a large number of iterative denoising steps and are resource-intensive, requiring expensive GPUs and incurring considerable latency. In this paper, we introduce a novel approximate-caching technique that reduces these iterative denoising steps by reusing intermediate noise states created during a prior image generation. Based on this idea, we present an end-to-end text-to-image generation system, NIRVANA, that employs approximate-caching with a novel cache management policy to achieve 21% GPU compute savings, 19.8% end-to-end latency reduction, and 19% cost savings on two real production workloads. Additionally, we provide an extensive characterization of real production text-to-image prompts from the perspectives of caching, popularity, and reuse of intermediate states in a large production environment."
+  
+- title: "Towards Fast, Adaptive, and Hardware-Assisted User-Space Scheduling"
   location: "CSE 505"
   speaker: ["Lisa Li", "Cornell University/MIT", "https://yueying-lisa-li.org/"]
   date: "Sep 06, 2024, 11:00 - 12:30 PST"
   bio: "Lisa Li is a CS PhD student at Cornell, with a current focus on sustainability, efficiency and reliability on scheduling problems in cloud computing. She also works on reinforcement learning and efficient LLM serving. She worked at Apple designing CPUs in California after graduation from SJTU and UM, deferring offers of PhD. She graduated with the highest honor in ECE, CE, and a minor in Math. She is passionate about mentorship in the CS community and serves on the CASA committee and CALM committee (a long-term mentorship program)."
+  abstract: "Scaling application performance while improving system resource efficiencies has become an increasingly important agenda for both cloud providers and users. With the rise of emerging interactive applications such as LLM and microservices, users must build applications that satisfy microsecond scale tail latency service level objectives; and with emphasis on sustainability, cloud providers aim to improve user experience while reducing their resource footprints. 
+In this talk, I will discuss the design of general-purpose, efficient, and adaptive frameworks for resource allocation and scheduling. First, I will introduce LibPreemptible, a fast, scalable, and hardware-assisted user-space scheduling library that is designed for microsecond-scale workloads. If time permits, I will discuss some ongoing works on efficient LLM serving scheduling systems and frameworks for cloud reliability."
   
 - title: "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving"
   location: "CSE 505"
