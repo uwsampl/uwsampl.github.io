@@ -338,6 +338,12 @@ pyondan:
     webpage: "https://danielpyon.github.io/"
     image: /img/people/pyondan.png
 
+liuyiyu:
+    display_name: "Yiyu Liu"
+    role: ugrad
+    webpage: "https://lau.yeeyu.org/"
+    image: /img/people/liuyiyu.png
+
 # Undergrad Alums
 # Alphabetical order
 
