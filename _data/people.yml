@@ -199,6 +199,12 @@ yilegu:
     role: grad
     image: /img/people/yilegu.jpg
 
+weishen:
+    display_name: "Wei Shen"
+    webpage: "https://www.linkedin.com/in/wei-shen-675b471a1/"
+    role: grad
+    image: /img/people/wei.jpg
+
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
