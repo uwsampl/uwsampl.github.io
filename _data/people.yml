@@ -198,6 +198,11 @@ weishen:
     role: grad
     image: /img/people/wei.jpeg
 
+weishen:
+    display_name: "Zhichen Zeng"
+    webpage: "https://zhichenzzz.github.io/"
+    role: grad
+    image: /img/people/zczeng.jpeg
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
