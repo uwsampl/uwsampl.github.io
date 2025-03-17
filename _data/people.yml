@@ -1,6 +1,5 @@
 # Faculty
 # Alphabetical order
-
 luisceze:
     display_name: "Luis Ceze"
     webpage: "https://homes.cs.washington.edu/~luisceze/"
@@ -71,12 +70,6 @@ ztatlock:
 
 # Postdocs/Collaborators
 
-zhengsz:
-    display_name: "Size Zheng"
-    webpage: "https://sizezheng.github.io/"
-    github: knowingNothing
-    role: visitor
-    image: /img/people/szzheng.jpg
 
 # Alphabetical order
 
@@ -207,6 +200,14 @@ weishen:
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+zhengsz:
+    display_name: "Size Zheng"
+    webpage: "https://sizezheng.github.io/"
+    github: knowingNothing
+    role: alum
+    image: /img/people/szzheng.jpg
+    bio: "Visiting Ph.D. 2023-2024, now at Bytedance Seed"
 
 lqchen:
     display_name: "Lequn Chen"
