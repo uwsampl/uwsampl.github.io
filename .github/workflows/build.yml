@@ -39,7 +39,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install bibble
-          gem install jekyll
+          gem install jekyll jekyll-redirect-from
       
       - name: Build
         run: |
