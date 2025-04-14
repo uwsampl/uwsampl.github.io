@@ -67,6 +67,13 @@ ztatlock:
     image: /img/people/ztatlock.jpg
     bio: "Associate Professor"
 
+angliz:
+    display_name: "Ang Li"
+    webpage: "https://pncel.github.io/team/ang"
+    github: angl-dev
+    role: faculty
+    image: /img/people/angliz.jpg
+    bio: "Assistant Professor - UW ECE"
 
 # Postdocs/Collaborators
 
